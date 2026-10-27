@@ -1,0 +1,831 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<title>Drum Circles Edmonton | Team Building &amp; Laughter Yoga | drumAdrumDRUM</title>
+<meta name="description" content="drumAdrumDRUM — interactive rhythm and music circles in Edmonton, Alberta since 2008. Drum circles and laughter yoga for corporate and government team building, seniors & care homes, wellness, community events, birthdays and weddings. Call 780-257-6428.">
+<link rel="canonical" href="https://yegdrumcircles.com/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="drumAdrumDRUM — Interactive Rhythm &amp; Music Circles, Edmonton">
+<meta property="og:description" content="Celebrating unity through our diversity. Custom expressive drum circle events in Edmonton &amp; area since 2008.">
+<meta property="og:url" content="https://yegdrumcircles.com/">
+<meta property="og:image" content="https://yegdrumcircles.com/images/hero-park-drum-circle.jpg">
+<meta property="og:locale" content="en_CA">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#2b1d14">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "drumAdrumDRUM",
+  "description": "Interactive rhythm and music circles — drum circles, laughter yoga, team building, seniors & care homes, wellness and community events.",
+  "knowsAbout": ["Drum circles", "Laughter yoga", "Team building", "Workplace wellness", "Seniors and care home programs", "Sound healing"],
+  "makesOffer": [
+    {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Drum circle facilitation", "areaServed": "Edmonton, Alberta"}},
+    {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Laughter yoga sessions", "url": "https://yegdrumcircles.com/laughter-yoga/", "areaServed": "Edmonton, Alberta"}},
+    {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Team building drum circles", "url": "https://yegdrumcircles.com/team-building/", "areaServed": "Edmonton, Alberta"}}
+  ],
+  "url": "https://yegdrumcircles.com/",
+  "image": "https://yegdrumcircles.com/images/hero-park-drum-circle.jpg",
+  "telephone": "+1-780-257-6428",
+  "email": "drumAdrumDRUM@gmail.com",
+  "founder": {"@type": "Person", "name": "Marcus Fung"},
+  "foundingDate": "2008",
+  "address": {"@type": "PostalAddress", "addressLocality": "Edmonton", "addressRegion": "AB", "addressCountry": "CA"},
+  "areaServed": "Edmonton, Alberta",
+  "sameAs": ["https://www.earthharmonysoundwellness.com/"]
+}
+</script>
+<style>
+:root{
+  --bg:#f7f1e8; --paper:#fffaf3; --ink:#2b1d14; --muted:#6e5a4b; --line:#e4d7c6;
+  --accent:#c2552b; --accent-ink:#fff; --deep:#2b1d14;
+  --r:14px; --w:1120px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{background:var(--bg);color:var(--ink);font:400 17px/1.65 Figtree,system-ui,sans-serif;overflow-x:hidden}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit}
+h1,h2,h3{font-family:"Bricolage Grotesque",Figtree,sans-serif;line-height:1.08;letter-spacing:-.02em}
+h2{font-size:clamp(30px,6vw,46px);font-weight:800;margin-bottom:18px}
+h3{font-size:21px;font-weight:700;margin-bottom:8px}
+p+p{margin-top:14px}
+.wrap{max-width:var(--w);margin:0 auto;padding:0 20px}
+section{padding:72px 0}
+.eyebrow{font:600 13px/1 Figtree,sans-serif;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);margin-bottom:14px;display:flex;align-items:center;gap:10px}
+/* the beat: a row of dots, one accented — the visual motif */
+.beat{display:inline-flex;gap:5px}
+.beat i{width:7px;height:7px;border-radius:50%;background:currentColor;opacity:.35}
+.beat i:first-child{opacity:1}
+.lead{font-size:clamp(18px,2.4vw,21px);color:var(--muted);max-width:60ch}
+
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:14px 22px;border-radius:999px;font:600 16px/1 Figtree,sans-serif;text-decoration:none;border:2px solid var(--accent);transition:transform .15s ease,background .15s ease}
+.btn:hover{transform:translateY(-1px)}
+.btn-solid{background:var(--accent);color:var(--accent-ink)}
+.btn-line{color:inherit;border-color:currentColor}
+.ctas{display:flex;flex-wrap:wrap;gap:12px}
+
+/* header */
+header.top{position:sticky;top:0;z-index:10;background:rgba(247,241,232,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+header.top .wrap{display:flex;align-items:center;justify-content:space-between;height:62px;gap:12px}
+.logo{font:800 21px/1 "Bricolage Grotesque",sans-serif;text-decoration:none;letter-spacing:-.02em}
+.logo span{color:var(--accent)}
+nav.links{display:none;gap:22px;font-weight:500;font-size:15px}
+nav.links a{text-decoration:none;color:var(--muted)}
+nav.links a:hover{color:var(--ink)}
+.call{font-weight:600;font-size:15px;text-decoration:none;white-space:nowrap}
+
+/* hero */
+.hero{padding:28px 0 0}
+.hero-grid{display:grid;gap:28px}
+.hero h1{font-size:clamp(38px,10.4vw,88px);font-weight:800;letter-spacing:-.035em}
+.hero h1 span{color:var(--accent)}
+.motto{font:700 clamp(22px,3vw,30px)/1.15 "Bricolage Grotesque",sans-serif;color:var(--ink);letter-spacing:-.015em;margin:-6px 0 0}
+.tagline{font:600 clamp(17px,2.4vw,20px)/1.3 Figtree,sans-serif;color:var(--muted);margin:10px 0 22px}
+.hero .motto{font:700 clamp(22px,3.4vw,30px)/1.2 "Bricolage Grotesque",sans-serif;margin-bottom:6px}
+.hero .motto-sub{color:var(--muted);margin-bottom:26px;max-width:40ch}
+.hero-img{border-radius:var(--r);overflow:hidden;aspect-ratio:4/3}
+.hero-img img{width:100%;height:100%;object-fit:cover;object-position:60% 40%}
+
+.trust{margin-top:36px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:26px 0 18px}
+.trust .stats{list-style:none;display:flex;justify-content:center;gap:clamp(28px,8vw,90px);padding:0;margin:0 0 22px}
+.trust .stats li{display:flex;flex-direction:column;align-items:center;gap:6px}
+.trust .stats b{font-family:"Bricolage Grotesque",Figtree,sans-serif;font-weight:800;font-size:clamp(1.9rem,4vw,2.5rem);line-height:1;letter-spacing:-.035em;color:var(--accent)}
+.trust .stats span{font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:#7a6a5c;font-weight:600}
+.strip-wrap{position:relative}
+.strip-btn{position:absolute;top:50%;transform:translateY(-50%);z-index:2;width:46px;height:46px;border-radius:50%;border:0;background:rgba(43,29,20,.72);color:#fff;font-size:28px;line-height:1;cursor:pointer;display:flex;align-items:center;justify-content:center;box-shadow:0 6px 20px rgba(0,0,0,.25)}
+.strip-btn:hover{background:var(--accent)}
+.strip-btn.prev{left:14px}.strip-btn.next{right:14px}
+@media (hover:none){.strip-btn{display:none}}
+.g-intro{max-width:720px;margin:10px auto 0;text-align:center;color:#6b5a4c;font-size:1.05rem;line-height:1.6}
+.g-why{margin-top:10px!important;font-size:.95rem;color:var(--deep)!important;font-style:italic}.g-why b{display:block;font-style:normal;font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);margin-bottom:2px}
+.spec-band{position:relative;width:min(1000px,calc(100% - 32px));aspect-ratio:16/8;min-height:260px;display:flex;align-items:flex-end;overflow:hidden;padding:0!important;margin:40px auto 56px;border-radius:22px;box-shadow:0 24px 60px -30px rgba(43,29,20,.55)}
+.spec-band img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.spec-band::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(43,29,20,0) 25%,rgba(43,29,20,.82) 100%)}
+.spec-text{position:relative;z-index:1;width:100%;padding:26px clamp(18px,4vw,40px);color:#fff}
+.spec-eyebrow{letter-spacing:.2em;text-transform:uppercase;font-size:.8rem;color:#f2c9a6;margin:0 0 6px;font-weight:700}
+.spec-line{font-family:"Bricolage Grotesque",Figtree,sans-serif;font-weight:600;font-size:clamp(1.5rem,3.4vw,2.5rem);line-height:1.15;margin:0;max-width:820px}
+.spec-sub{margin:10px 0 0;opacity:.85;letter-spacing:.06em}
+.team-photo{width:min(1000px,calc(100% - 32px));margin:48px auto 8px;border-radius:22px;overflow:hidden;box-shadow:0 24px 60px -30px rgba(43,29,20,.55)}.team-photo img{display:block;width:100%;aspect-ratio:16/8;object-fit:cover}
+.drum-banner{background:var(--accent);color:#fff;text-align:center;padding:46px 16px 40px;margin-top:40px}.drum-banner p{margin:0}.db-eyebrow{font:700 13px Figtree,sans-serif;letter-spacing:.2em;text-transform:uppercase;color:#fde9da;margin-bottom:10px!important}.db-word{font:800 clamp(44px,8vw,84px)/1 "Bricolage Grotesque",sans-serif;letter-spacing:.06em}.db-word b{color:#fff}.db-line{margin-top:10px!important;font:600 clamp(18px,2.6vw,26px)/1.3 Figtree,sans-serif;color:#fde9da}.db-line b{color:#fff;font-weight:800}.db-motto{font:800 clamp(34px,6vw,64px)/1.05 "Bricolage Grotesque",sans-serif;letter-spacing:-.01em}
+.db-drum{position:relative;isolation:isolate;overflow:hidden}
+.db-drum::before{content:"";position:absolute;inset:0;background:url(images/texture-festival-gray.jpg) center 55%/cover;mix-blend-mode:multiply;opacity:.16;z-index:-1}
+.db-drum::after{content:"";position:absolute;left:50%;top:50%;height:100%;aspect-ratio:1;transform:translate(-50%,-50%);background:url(images/circle-connections.svg) center/contain no-repeat;opacity:.2;z-index:-1;pointer-events:none}
+.db-drum::after{left:auto!important;right:max(4%,calc(50% - 390px));transform:translateY(-50%)!important;height:88%!important;opacity:.32!important;background-image:url(images/circle-connections-anim.svg)!important}
+.db-drum{text-align:left}.db-drum > *{max-width:800px;margin-left:auto!important;margin-right:auto!important;padding-right:min(34%,250px)}
+@media (max-width:760px){.db-drum{text-align:center}.db-drum > *{padding-right:0}.db-drum::after{right:50%!important;transform:translate(50%,-50%)!important;height:100%!important;opacity:.2!important}}
+.db-vision{max-width:660px;margin:22px auto 0;font:500 clamp(1rem,1.6vw,1.12rem)/1.6 Figtree,sans-serif;color:#fde9da}.db-vision p{margin:0 0 12px!important}.db-since{font:700 12px Figtree,sans-serif!important;letter-spacing:.2em;text-transform:uppercase;color:#fff;margin-top:18px!important}
+.vision-band{background:#efe3d4;text-align:center;padding:64px 16px 60px}.vision-band .db-eyebrow{color:var(--accent)}.vision-band .db-vision{margin-top:14px;max-width:900px;color:var(--ink);font:700 clamp(1.35rem,2.9vw,2rem)/1.3 "Bricolage Grotesque",sans-serif;letter-spacing:-.01em;text-wrap:balance}.vision-band .db-vision p{margin:0 0 22px!important}.vision-band em{font-style:normal;color:var(--accent)}.vision-band .db-since{color:var(--accent)}
+.db-unity{margin-top:0;position:relative;isolation:isolate;overflow:hidden}
+.db-unity::before{content:"";position:absolute;inset:0;background:url(images/texture-circle-gray.jpg) center 60%/cover;mix-blend-mode:multiply;opacity:.16;z-index:-1}
+.db-credit{margin-top:14px!important;font:600 12px Figtree,sans-serif;letter-spacing:.16em;text-transform:uppercase;opacity:.8}
+.g-quote{margin:6px auto 18px;max-width:820px;text-align:center;font:700 clamp(1.5rem,3.4vw,2.4rem)/1.25 "Bricolage Grotesque",sans-serif;color:var(--accent)}
+.not-musical{text-align:center;padding:56px 16px 56px;border-bottom:1px solid var(--line)}.not-musical h2{margin:6px 0 18px}.not-musical blockquote{margin:0 auto;max-width:820px;font:700 clamp(1.5rem,3.4vw,2.4rem)/1.25 "Bricolage Grotesque",sans-serif;color:var(--accent)}.nm-video{display:block;width:min(440px,100%);aspect-ratio:1;object-fit:cover;border-radius:22px;margin:28px auto 0;box-shadow:0 24px 60px -30px rgba(43,29,20,.55)}
+.nm-wrap{position:relative;width:min(440px,100%);margin:28px auto 0}.nm-wrap .nm-video{margin:0;width:100%}.nm-sound{position:absolute;right:14px;bottom:14px;background:rgba(43,29,20,.78);color:#fff;border:0;border-radius:999px;padding:9px 14px;font:700 13.5px Figtree,sans-serif;cursor:pointer;backdrop-filter:blur(4px)}.nm-sound:hover{background:var(--accent)}
+.nm-caption{margin:14px 0 0;font:700 15px/1.4 Figtree,sans-serif;color:var(--ink)}.nm-caption span{font-weight:500;font-size:13.5px;color:var(--muted)}
+.nm-credit{margin-top:12px;letter-spacing:.16em;text-transform:uppercase;font-size:12px;opacity:.7}
+.band-loops{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;max-width:1000px;margin:34px auto 0}
+.band-watch{margin:26px 0 0}.band-watch a{display:inline-flex;align-items:center;gap:12px;background:var(--paper);color:var(--ink);text-decoration:none;border-radius:999px;padding:8px 10px 8px 8px;font:700 15px/1.2 Figtree,sans-serif;text-align:left;box-shadow:0 10px 30px -12px rgba(0,0,0,.6);transition:transform .15s}.band-watch a:hover{transform:translateY(-2px)}.band-watch small{display:block;font-weight:500;font-size:12.5px;color:var(--muted)}.band-watch .play{flex:none;width:40px;height:40px;border-radius:50%;background:var(--accent);position:relative}.band-watch .play::after{content:"";position:absolute;left:16px;top:12px;border-left:12px solid #fff;border-top:8px solid transparent;border-bottom:8px solid transparent}.band-watch .dur{flex:none;background:var(--bg);border:1px solid var(--line);border-radius:999px;padding:6px 10px;font:700 13px Figtree,sans-serif;color:var(--accent)}
+.band-loops video{width:100%;aspect-ratio:1;object-fit:cover;border-radius:18px;display:block;background:#3a281c}
+@media (max-width:600px){.band-loops{gap:8px;margin-top:22px}.band-loops video{border-radius:12px}}
+.team-photo figcaption{background:var(--deep);color:var(--paper);text-align:center;font:600 clamp(17px,2.2vw,22px)/1.35 Figtree,sans-serif;padding:18px 20px}
+@media (max-width:600px){.team-photo figcaption br{display:none}}
+.who-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:30px}
+.who-card{background:#fff;border-radius:18px;overflow:hidden;box-shadow:0 18px 44px -30px rgba(43,29,20,.45);display:flex;flex-direction:column}
+.who-card img{width:100%;aspect-ratio:16/9;object-fit:cover;display:block}.who-body{padding:18px 20px 22px}
+.who-body h3{margin:0 0 8px;font-size:1.2rem}.who-body p{margin:0;color:#6b5a4c;line-height:1.55}.who-ex{margin-top:10px!important;font-size:.85rem;color:var(--accent)!important;font-weight:600}
+.who-cta{text-align:center;margin-top:28px;display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+@media (max-width:860px){.who-grid{grid-template-columns:1fr}}
+.g-grid{display:grid;grid-template-columns:1fr minmax(260px,360px) 1fr;gap:clamp(18px,3vw,40px);align-items:center;margin-top:34px}
+.g-col{display:flex;flex-direction:column;gap:clamp(18px,3vw,34px)}
+.g-card{text-align:center;display:flex;flex-direction:column;align-items:center}
+.g-art{display:block;width:118px;height:118px;border-radius:50%;object-fit:cover;margin:6px auto 14px;box-shadow:0 0 0 5px #fff,0 12px 26px -16px rgba(43,29,20,.6)}
+.g-card .g-ico{display:none}
+@media (min-width:900px){.g-art{width:136px;height:136px}}
+.g-ico{width:68px;height:68px;color:var(--accent);margin-bottom:12px;stroke-width:1.6}
+.g-card h3{font-size:1.15rem;margin:0 0 6px;text-wrap:balance}.g-card p{margin:0;color:#6b5a4c;line-height:1.55}
+.g-center{margin:0;text-align:center}.g-center canvas{width:100%;max-width:360px;height:auto;aspect-ratio:1}
+.g-center figcaption{font-size:.92rem;color:#6b5a4c;line-height:1.5;margin-top:8px}.g-center figcaption b{display:block;color:var(--deep);letter-spacing:.14em;text-transform:uppercase;font-size:.78rem;margin-bottom:4px}
+@media (max-width:860px){.g-grid{grid-template-columns:1fr}.g-center{order:-1;max-width:320px;margin:0 auto}}
+.photo-strip{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;padding:26px max(16px,calc((100vw - 1180px)/2)) 6px;scrollbar-width:none}
+.photo-strip::-webkit-scrollbar{display:none}
+.photo-strip img{height:clamp(170px,22vw,260px);width:auto;aspect-ratio:4/5;object-fit:cover;border-radius:14px;scroll-snap-align:start;flex:0 0 auto}
+.logo-marquee{overflow:hidden;-webkit-mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent);mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent)}
+.logo-track{display:flex;align-items:center;width:max-content;animation:logos 45s linear infinite}
+.logo-track img{margin-right:56px}
+.logo-track img{height:52px;width:auto;max-width:150px;object-fit:contain;filter:grayscale(1) contrast(1.1);opacity:.6}
+.logo-marquee:hover .logo-track{animation-play-state:paused}
+@keyframes logos{to{transform:translateX(-50%)}}
+@media (prefers-reduced-motion:reduce){.logo-track{animation-duration:90s}}
+@media (max-width:600px){.logo-track img{height:68px;max-width:190px;margin-right:40px}.logo-track{animation-duration:38s}}
+
+.hero-tags{font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--accent,#b8502b);font-size:clamp(.95rem,1.6vw,1.15rem);margin:18px 0 10px}
+/* about + vision */
+.two{display:grid;gap:40px}
+.vision{background:var(--deep);color:#f4e9da;border-radius:var(--r);padding:34px 26px}
+.vision .eyebrow{color:#e9a27f}
+.vision p{color:#e3d4c2}
+
+/* who it's for */
+.cards{display:grid;gap:14px;margin-top:30px}
+.card{background:var(--paper);border:1px solid var(--line);border-radius:var(--r);padding:24px}
+.card .num{font:800 14px/1 "Bricolage Grotesque",sans-serif;color:var(--accent);margin-bottom:14px;display:block}
+.card ul{list-style:none;color:var(--muted)}
+.card li{padding:3px 0}
+.card li::before{content:"— ";color:var(--line)}
+
+/* other services */
+.svc{display:grid;gap:18px;margin-top:30px}
+.svc article{background:var(--paper);border:1px solid var(--line);border-radius:var(--r);overflow:hidden}
+.svc article img{width:100%;aspect-ratio:16/10;object-fit:cover}
+.svc .body{padding:22px 24px 26px}
+.svc .body p{color:var(--muted);font-size:16px}
+.svc .body h4{font:600 15px/1.3 Figtree,sans-serif;margin:16px 0 4px}
+.svc .noimg{aspect-ratio:16/10;background:var(--deep);display:grid;place-items:center;color:#e9a27f}
+.svc .noimg .beat i{width:14px;height:14px}
+details.more summary{cursor:pointer;color:var(--accent);font-weight:600;font-size:15px;margin-top:14px;list-style:none}
+details.more summary::-webkit-details-marker{display:none}
+details.more[open] summary{margin-bottom:6px}
+
+/* marcus */
+.marcus{display:grid;gap:30px;align-items:start}
+.marcus img{border-radius:var(--r);aspect-ratio:4/5;object-fit:cover;width:100%}
+
+/* clients */
+#clients{background:var(--paper);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.cats{display:grid;gap:10px;margin-top:28px}
+.cat{background:var(--bg);border:1px solid var(--line);border-radius:12px}
+.cat summary{display:flex;justify-content:space-between;align-items:center;padding:16px 20px;cursor:pointer;font:700 18px/1.2 "Bricolage Grotesque",sans-serif;list-style:none}
+.cat summary::-webkit-details-marker{display:none}
+.cat summary b{font:600 13px/1 Figtree,sans-serif;color:var(--accent);background:var(--paper);border:1px solid var(--line);border-radius:999px;padding:6px 10px}
+.cat summary span::after{content:" +";color:var(--accent)}
+.cat[open] summary span::after{content:" –"}
+.cat ul{list-style:none;padding:0 20px 18px;columns:1;column-gap:28px;font-size:15px;color:var(--muted)}
+.cat li{break-inside:avoid;padding:3px 0;line-height:1.4}
+
+/* gallery */
+.strip{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;padding:4px 20px 14px;margin-top:26px;scrollbar-width:thin}
+.strip figure{flex:0 0 78%;scroll-snap-align:center;border-radius:12px;overflow:hidden;aspect-ratio:4/3}
+.strip img{width:100%;height:100%;object-fit:cover}
+
+/* contact */
+#contact{background:var(--deep);color:#f4e9da}
+#contact .eyebrow{color:#e9a27f}
+#contact .lead{color:#d9c8b4}
+.contact-grid{display:grid;gap:30px;margin-top:10px}
+.contact-list{list-style:none;font-size:19px}
+.contact-list li{padding:12px 0;border-bottom:1px solid rgba(255,255,255,.12)}
+.contact-list small{display:block;font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:#b49c86}
+.contact-list a{text-decoration:none;font-weight:600}
+.contact-list a:hover{color:#e9a27f}
+#contact .btn-line{color:#f4e9da}
+
+footer{background:#1f150e;color:#b49c86;font-size:14px;padding:26px 0}
+footer .wrap{display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:space-between}
+footer a{color:#e3d4c2}
+
+@media (min-width:640px){
+  .cards{grid-template-columns:1fr 1fr}
+  .cat ul{columns:2}
+  .strip figure{flex-basis:46%}
+}
+@media (min-width:900px){
+  section{padding:96px 0}
+  nav.links{display:flex}
+  .hero{padding-top:56px}
+  .hero-grid{grid-template-columns:1.05fr 1fr;align-items:center;gap:48px}
+  .hero-img{aspect-ratio:5/6}
+  .two{grid-template-columns:1.1fr 1fr;align-items:start;gap:56px}
+  .vision{padding:44px 40px}
+  .cards{grid-template-columns:repeat(4,1fr)}
+  .svc{grid-template-columns:repeat(3,1fr)}
+  .marcus{grid-template-columns:.8fr 1.2fr;gap:56px}
+  .cats{grid-template-columns:1fr 1fr;align-items:start}
+  .cat ul{columns:1}
+  .cat.wide{grid-column:1/-1}
+  .cat.wide ul{columns:3}
+  .strip{padding-left:max(20px,calc((100vw - var(--w))/2 + 20px));padding-right:20px}
+  .strip figure{flex-basis:30%}
+  .contact-grid{grid-template-columns:1fr 1fr;align-items:end}
+}
+
+.card.feature{background:var(--accent);border-color:var(--accent);color:#fff}
+.card.feature .num{color:#ffe1d1}
+.card.feature h3{font-size:26px}
+.card.feature ul{color:#ffece2}
+.card.feature li::before{color:#ffe1d1}
+.card.feature .btn{margin-top:18px;background:#fff;color:var(--accent);border-color:#fff}
+.vh{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+.compare{width:100%;border-collapse:collapse;margin-top:30px;font-size:16px}
+.compare thead{display:none}
+.compare tr{display:block;background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:16px 18px;margin-bottom:10px}
+.compare th[scope=row]{display:block;text-align:left;font:700 17px/1.2 "Bricolage Grotesque",sans-serif;margin-bottom:8px}
+.compare td{display:block;padding:4px 0;color:var(--muted)}
+.compare td::before{content:attr(data-l);display:block;font:600 11px/1.4 Figtree,sans-serif;letter-spacing:.12em;text-transform:uppercase;color:#a8907c}
+.compare td:last-child{color:var(--ink);font-weight:600}
+.compare td:last-child::before{color:var(--accent)}
+.diff{list-style:none;margin-top:12px;display:grid;gap:10px}
+.diff li{padding-left:22px;position:relative}
+.diff li::before{content:"";position:absolute;left:0;top:.6em;width:8px;height:8px;border-radius:50%;background:var(--accent)}
+.eh{display:flex;flex-direction:column;gap:4px;margin-top:22px;padding:18px 22px;border:1px solid var(--line);border-left:4px solid #c9a24a;border-radius:12px;background:#1d2a44;color:#f3ead8;text-decoration:none}
+.eh small{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#c9a24a}
+.eh:hover span{text-decoration:underline}
+@media (min-width:760px){
+  .compare thead{display:table-header-group}
+  .compare tr{display:table-row;background:none;border:0;padding:0}
+  .compare th,.compare td{display:table-cell;padding:16px 18px;border-bottom:1px solid var(--line);vertical-align:top;text-align:left}
+  .compare thead th{font:700 15px/1.3 Figtree,sans-serif;color:var(--muted)}
+  .compare thead th:last-child{color:var(--accent)}
+  .compare th[scope=row]{display:table-cell;margin:0;width:26%;font-size:16px}
+  .compare td::before{display:none}
+  .compare td:last-child{background:var(--paper)}
+}
+@media (min-width:900px){
+  .cards{grid-template-columns:repeat(3,1fr)}
+  .card.feature{grid-column:1/-1;display:grid;grid-template-columns:1fr 1fr;column-gap:40px;align-items:center;padding:32px 36px}
+  .card.feature .num,.card.feature h3{grid-column:1}
+  .card.feature ul{grid-column:2;grid-row:1/span 4}
+  .card.feature .btn{grid-column:1;justify-self:start}
+  .card.feature h3{font-size:32px}
+}
+/* research-brief additions (Oct 2026) */
+.gets{display:grid;gap:12px;margin-top:26px;list-style:none}
+.gets li{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:18px 20px;color:var(--muted);font-size:16px}
+.gets b{display:block;font:700 18px/1.25 "Bricolage Grotesque",sans-serif;color:var(--ink);margin-bottom:4px}
+.facts{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0 2px;list-style:none}
+.card.feature .facts li{padding:6px 12px;border:1px solid rgba(255,255,255,.45);border-radius:999px;font-size:14px;font-weight:600;color:#fff}
+.card.feature .facts li::before{content:none}
+.flows{display:grid;gap:14px;margin-top:20px}
+.flow{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:20px 22px}
+.flow ol{list-style:none;counter-reset:f;margin-top:8px}
+.flow li{counter-increment:f;padding:6px 0 6px 34px;position:relative;color:var(--muted);font-size:16px;border-top:1px solid var(--line)}
+.flow li:first-child{border-top:0}
+.flow li::before{content:counter(f);position:absolute;left:0;top:7px;width:22px;height:22px;border-radius:50%;background:var(--accent);color:#fff;font:700 12px/22px Figtree,sans-serif;text-align:center}
+.flow li b{color:var(--ink);font-weight:600}
+.research{margin-top:36px;padding:24px;border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:12px;background:var(--paper)}
+.research ul{list-style:none;display:grid;gap:12px;margin-top:10px;font-size:16px;color:var(--muted)}
+.research a{color:var(--accent);font-weight:600}
+.research .note{font-size:14px;color:var(--muted);margin-top:16px}
+.names{list-style:none;display:flex;flex-wrap:wrap;gap:8px;margin-top:26px}
+.names li{background:var(--bg);border:1px solid var(--line);border-radius:999px;padding:8px 14px;font-weight:600;font-size:15px}
+.allclients{margin-top:22px}
+.allclients>summary{cursor:pointer;color:var(--accent);font-weight:600;list-style:none}
+.allclients>summary::-webkit-details-marker{display:none}
+.allclients>summary::after{content:" +"}
+.allclients[open]>summary::after{content:" –"}
+.faq{display:grid;gap:10px;margin-top:26px}
+.faq details{background:var(--paper);border:1px solid var(--line);border-radius:12px}
+.faq summary{padding:16px 20px;cursor:pointer;font:700 18px/1.25 "Bricolage Grotesque",sans-serif;list-style:none}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:" +";color:var(--accent)}
+.faq details[open] summary::after{content:" –"}
+.faq details p{padding:0 20px 18px;color:var(--muted);font-size:16px}
+.steps{list-style:none;counter-reset:s;display:grid;gap:10px;margin-top:22px}
+.steps li{counter-increment:s;position:relative;padding-left:40px;color:#d9c8b4}
+.steps li::before{content:counter(s);position:absolute;left:0;top:0;width:28px;height:28px;border-radius:50%;border:1px solid #e9a27f;color:#e9a27f;font:700 14px/26px Figtree,sans-serif;text-align:center}
+.steps b{color:#f4e9da}
+@media (min-width:640px){.gets{grid-template-columns:1fr 1fr}}
+@media (min-width:900px){
+  .gets{grid-template-columns:repeat(4,1fr)}
+  .flows{grid-template-columns:1fr 1fr}
+  .card.feature .facts{grid-column:1;grid-row:auto}
+  .faq{grid-template-columns:1fr 1fr;align-items:start}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.btn{transition:none}}
+/* hero bubble (Oct 11) */
+.hero-bubble{border:3px solid var(--choc);border-radius:28px;padding:22px 30px 20px;margin:0 0 26px;background:#fffaf3;box-shadow:0 18px 40px -30px rgba(59,36,23,.6)}
+.hero-bubble .hero-tags{margin-top:10px}
+.hero-bubble .tagline{margin-bottom:0}
+.hero-tags span{white-space:nowrap}
+.hero-bubble{max-width:100%;box-sizing:border-box}
+@media (max-width:600px){.hero-bubble{padding:16px 16px;border-radius:22px}.hero-bubble h1{font-size:clamp(30px,9vw,44px)}.hero-bubble .tagline br{display:none}}
+/* chocolate frame around hero: cream title bubble flush with photo (Oct 11) */
+.hero-frame{background:var(--choc);border-radius:32px;padding:16px;gap:16px!important;align-items:stretch!important}
+.hero-frame .hero-bubble{margin:0;border:0;border-radius:22px;display:flex;flex-direction:column;justify-content:center;padding:clamp(22px,4vw,48px)}
+.hero-frame .hero-img{border-radius:22px;aspect-ratio:auto;min-height:320px}
+.hero-frame .ctas{margin-top:22px}
+.hero-frame>*{min-width:0}
+.hero-frame h1{font-size:clamp(30px,4.1vw,62px);white-space:nowrap}
+@media (min-width:900px){.hero-frame{grid-template-columns:1.45fr 1fr!important}}
+@media (max-width:600px){.hero-frame{padding:10px;gap:10px!important;border-radius:26px}.hero-frame h1{font-size:clamp(28px,8.6vw,40px)}.hero-frame .hero-img{min-height:260px}}
+/* chocolate menu bar with cream bubbles (Oct 11) */
+header.top{background:var(--choc);border-bottom:0;backdrop-filter:none}
+header.top .wrap{height:70px}
+header.top .logo{background:#fffaf3;color:var(--ink);padding:0 18px;height:38px;display:inline-flex;align-items:center;line-height:1;border-radius:999px}
+header.top nav.links{gap:6px;align-items:center}
+header.top nav.links a{color:#fff;background:var(--accent);font-weight:600;border-radius:999px;padding:0 14px;height:32px;display:inline-flex;align-items:center;justify-content:center;font-size:14px;white-space:nowrap;line-height:1;transition:background .2s,color .2s}
+header.top nav.links a:hover{background:#fffaf3;color:var(--accent)}
+header.top .call{background:#fffaf3;color:var(--ink);padding:0 16px;height:38px;display:inline-flex;align-items:center;line-height:1;border-radius:999px;text-decoration:none}
+/* mobile: bubble menu as a swipeable second row (Oct 11) */
+@media (max-width:899px){
+  header.top .wrap{flex-wrap:wrap;height:auto;padding-top:10px;padding-bottom:10px;row-gap:10px}
+  header.top nav.links{display:flex;order:3;flex:1 0 100%;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch;padding:0 16px;margin:0 -16px;scroll-padding-left:16px}
+  header.top nav.links::-webkit-scrollbar{display:none}
+  header.top nav.links a{flex:0 0 auto}
+  header.top nav.links::after{content:"";flex:0 0 4px}
+  header.top .logo{font-size:18px;height:34px;padding:0 14px}
+  header.top .call{font-size:14px;height:34px;padding:0 12px}
+  header.top nav.links a{height:30px;font-size:13px;padding:0 12px}
+}
+/* chocolate anchor under the photo strip (Oct 11) */
+.strip-wrap{background:var(--choc);margin-top:26px}
+.strip-wrap .photo-strip{padding-top:22px;padding-bottom:22px}
+.strip-wrap .strip-btn{background:rgba(251,243,231,.85);color:var(--choc)}
+/* chocolate grounding bands (Oct 11) */
+:root{--choc:#3b2417}
+#for,#quote{background:var(--choc);color:#f4e9da}
+#for h2,#quote blockquote{color:#fbf3e7}
+#for .eyebrow{color:#e9a27f}
+#for .g-intro{color:#d9c8b4}
+#for .who-card{background:#fffaf3;box-shadow:0 22px 50px -26px rgba(0,0,0,.6);padding:8px 8px 0;border-radius:20px}
+.who-card img{border-radius:13px}
+.who-card .who-body{padding:16px 14px 20px}
+#for .btn-line{color:#f4e9da;border-color:#f4e9da}
+#clients{border-top:6px solid var(--choc)}
+#for .who-card h3{color:var(--ink)}
+#why{padding-top:72px!important}
+
+/* team benefits as a cycle (Oct 26): N → E → S → W, arrows clockwise around the entrainment circle */
+.g-read{margin-top:6px;font-size:.95rem;font-style:italic}
+.g-cycle{display:grid;grid-template-columns:1fr minmax(280px,380px) 1fr;grid-template-areas:". n ." "w c e" ". s .";gap:clamp(14px,2.4vw,28px) clamp(18px,3vw,40px);align-items:center;margin-top:30px}
+.g-cycle .g-n{grid-area:n;margin-bottom:56px}.g-cycle .g-s{margin-top:56px}.g-cycle .g-e{grid-area:e}.g-cycle .g-s{grid-area:s}.g-cycle .g-w{grid-area:w}
+.g-cycle .g-center{grid-area:c;position:relative}
+.g-law{max-width:560px;margin:34px auto 0;text-align:center;font-size:.92rem;color:#6b5a4c;line-height:1.5}.g-law b{display:block;color:var(--deep);letter-spacing:.14em;text-transform:uppercase;font-size:.78rem;margin-bottom:4px}
+@media (max-width:820px){.g-cycle .g-center figcaption{margin-top:8px}.g-cycle .g-n{margin-bottom:0}.g-cycle .g-s{margin-top:0}}
+.g-cycle .g-card{position:relative;max-width:340px;justify-self:center}
+.g-num{display:inline-grid;place-items:center;width:30px;height:30px;border-radius:50%;background:var(--accent);color:#fff;font:700 15px/1 "Bricolage Grotesque",sans-serif;margin-bottom:8px}
+.g-ring{opacity:.8;position:absolute;left:50%;top:50%;width:134%;height:auto;aspect-ratio:1;transform:translate(-50%,-50%);color:var(--accent);opacity:.55;pointer-events:none}
+.g-ring path{fill:none;stroke:currentColor;stroke-width:2.5;stroke-linecap:round}
+.g-ring marker path{fill:currentColor;stroke:none}
+@media (max-width:820px){
+  .g-cycle{grid-template-columns:1fr;grid-template-areas:"c" "n" "e" "s" "w"}
+  .g-ring{display:none}
+  .g-cycle .g-card:not(.g-w)::after{content:"↓";display:block;margin-top:14px;font-size:22px;color:var(--accent)}
+}
+/* 6 C's of facilitation */
+.six{counter-reset:c;list-style:none;display:grid;grid-template-columns:1fr;gap:34px;margin:22px auto 0;max-width:520px}
+.six li::after{content:"↓";position:absolute;left:50%;bottom:-31px;transform:translateX(-50%);font:700 22px/1 Figtree,sans-serif;color:var(--accent)}
+.six li:last-child::after{content:none}
+@media (min-width:1000px){.six{grid-template-columns:repeat(6,1fr);gap:30px;max-width:none}.six li::after{content:"→";left:auto;right:-26px;bottom:auto;top:50%;transform:translateY(-50%)}.six li:last-child::after{content:none}}
+.six li{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:16px 16px 14px;position:relative}
+.six li b{display:block;font:700 17px/1.2 "Bricolage Grotesque",sans-serif;color:var(--ink)}
+.six li span{display:block;color:var(--muted);font-size:14.5px;margin-top:4px;line-height:1.45}
+.six li::before{counter-increment:c;content:counter(c);display:inline-grid;place-items:center;width:26px;height:26px;border-radius:50%;background:var(--deep);color:#fff;font:700 13px/1 Figtree,sans-serif;margin-bottom:8px}
+
+/* nav fits between 900–1240px (it overflowed right at ~1024 → page looked shifted left) */
+@media (min-width:901px) and (max-width:1240px){header.top nav.links{gap:4px}header.top nav.links a{padding:0 10px;font-size:13px;height:30px}header.top .logo{padding:0 12px;font-size:17px}}
+
+/* benefits straight down (Marcus Oct 26): centred cards — badge on the top edge, icon in a clay circle, text centred; connector + arrowhead between. */
+.g-down{display:grid;gap:66px;max-width:600px;margin:44px auto 0}
+.g-down .g-card{position:relative;display:flex;flex-direction:column;align-items:center;text-align:center;background:var(--paper);border:1px solid var(--line);border-radius:22px;padding:34px 28px 24px;box-shadow:0 14px 34px -26px rgba(43,29,20,.45)}
+.g-down .g-num{position:absolute;top:-16px;left:50%;transform:translateX(-50%);margin:0;width:32px;height:32px;box-shadow:0 0 0 5px var(--bg)}
+.g-down .g-ico{width:42px;height:42px;padding:13px;box-sizing:content-box;background:#f6e6da;border-radius:50%;margin:4px auto 12px}
+.g-down .g-ico48{stroke-width:2.9}
+.g-down .g-card h3{margin:0 0 6px;font-size:1.22rem}
+.g-down .g-card p{max-width:46ch}
+.g-down .g-card p.g-why{margin-top:10px!important}
+.g-down .g-card:not(:last-child)::after{content:"";position:absolute;left:50%;bottom:-28px;width:2px;height:20px;background:var(--accent);opacity:.5;transform:translateX(-50%)}
+.g-down .g-card:not(:last-child)::before{content:"";position:absolute;left:50%;bottom:-38px;border-left:7px solid transparent;border-right:7px solid transparent;border-top:10px solid var(--accent);transform:translateX(-50%);opacity:.8}
+@media (max-width:480px){.g-down .g-card{padding:32px 18px 20px}}
+.g-solo{max-width:320px;margin:44px auto 0}
+
+/* hero: three offers as three clear points (Marcus Oct 26) */
+.hero-points{list-style:none;display:grid;width:max-content;max-width:100%;gap:8px;margin:14px 0 14px;padding:0}
+.hero-points li{display:inline-flex;align-items:center;gap:8px;border:1.5px solid var(--accent);color:var(--accent);background:#fff7ef;border-radius:999px;padding:7px 14px 7px 12px;font:700 13.5px/1 Figtree,sans-serif;letter-spacing:.09em;text-transform:uppercase;white-space:nowrap}
+.hero-points li::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--accent)}
+@media (max-width:600px){.hero-points{gap:6px}.hero-points li{font-size:12px;padding:6px 11px 6px 10px}}
+
+/* who-it's-for: organizations as small bubbles (Marcus Oct 26) */
+.who-orgs{list-style:none;display:flex;flex-wrap:wrap;gap:6px;margin:14px 0 0;padding:0}
+.who-orgs li{font:600 12.5px/1.2 Figtree,sans-serif;color:var(--ink);background:#f3e7da;border:1px solid var(--line);border-radius:999px;padding:5px 10px}
+
+/* clients: selected names by sector (Marcus: "make it look more impressive") */
+.sectors{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,230px),1fr));gap:14px;margin:26px 0 18px}
+.sector{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:20px 20px 16px;box-shadow:0 14px 34px -28px rgba(43,29,20,.5)}
+.sector h3{font:700 12.5px/1 Figtree,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);margin:0 0 12px}
+.sector ul{list-style:none;margin:0;padding:0;display:grid;gap:9px}
+.sector li{font:700 16.5px/1.25 "Bricolage Grotesque",Figtree,sans-serif;color:var(--ink);letter-spacing:-.01em}
+
+#clients{padding:56px 0}
+#clients h2{font-size:clamp(26px,4.4vw,36px)}
+#clients .eyebrow,#clients h2,#clients .lead{text-align:center;justify-content:center;margin-left:auto;margin-right:auto}
+.sectors{margin:22px 0 12px;gap:12px}
+.sector{padding:16px 18px 14px}
+.sector li{font-size:15.5px}
+#clients .allclients>summary{text-align:center}
+
+/* clients: one set of category cards, each opens to its full list (Marcus: "less clutter") */
+.sectors{grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr))}
+details.sector>summary{list-style:none;cursor:pointer}
+details.sector>summary::-webkit-details-marker{display:none}
+.sector h3{display:flex;justify-content:space-between;align-items:center}
+.sector h3 b{font:700 12px/1 Figtree,sans-serif;color:var(--muted);background:#f3e7da;border-radius:999px;padding:4px 9px;letter-spacing:0}
+.sector .more{display:inline-block;margin-top:2px;font:600 13px/1 Figtree,sans-serif;color:var(--accent)}
+details.sector[open] .more{display:none}
+.sector h3{margin:0 0 8px!important}
+.sector .rest{margin-top:9px!important}
+.sector .rest li{font:500 14.5px/1.35 Figtree,sans-serif;color:var(--muted)}
+.sector{padding:18px 20px}
+.sector h3{font-size:13px!important}
+
+/* client cards: title as the hero of the card (display face, sentence case, ink), count badge right, quiet "Show more" below */
+#clients .sector h3{font:700 clamp(18px,1.9vw,20px)/1.2 "Bricolage Grotesque",Figtree,sans-serif!important;letter-spacing:-.01em!important;text-transform:none!important;color:var(--accent)!important;gap:12px;margin:0 0 10px!important;text-wrap:balance}
+#clients .sector h3 b{flex:none;align-self:flex-start;margin-top:2px}
+#clients .sector .more{font:600 12.5px/1 Figtree,sans-serif;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);opacity:.9}
+#clients details.sector>summary:hover .more{opacity:1}
+#clients .sector{padding:20px 22px 18px}
+.cmp-card{max-width:1000px;margin:72px auto 0;background:var(--paper);border:1px solid var(--line);border-radius:26px;padding:34px clamp(16px,3vw,40px) 30px;box-shadow:0 26px 60px -34px rgba(43,29,20,.5)}
+.cmp-card .cmp-title{margin-top:0!important}
+.cmp-pill{display:inline-block;white-space:nowrap;border:1.5px solid var(--line);border-radius:999px;padding:7px 14px;font:700 14px/1.2 Figtree,sans-serif;color:var(--muted)}
+.cmp-pill-on{background:var(--accent);border-color:var(--accent);color:#fff}
+@media (min-width:700px){.cmp-card .compare td:last-child{background:#fbeee4;border-bottom-color:#f1dccd}.cmp-card .compare tbody tr:last-child th,.cmp-card .compare tbody tr:last-child td{border-bottom:0}.cmp-card .compare tbody tr:last-child td:last-child{border-radius:0 0 14px 14px}.cmp-card .compare thead th:last-child{background:#fbeee4;border-radius:14px 14px 0 0}}
+@media (max-width:699px){.cmp-card{padding:24px 12px 14px;border-radius:22px}.cmp-card .compare tr{background:#fff}}
+.cmp-title{text-align:center;font-size:clamp(22px,3vw,28px);margin:30px 0 4px}
+.cmp-sub{text-align:center;color:var(--muted);margin:0 0 16px}
+.six-wrap{margin:30px 0 10px}.six-wrap .eyebrow{justify-content:center}.six-title{text-align:center;font-size:clamp(22px,3vw,28px);margin:0 0 4px}
+
+/* client cards as two-toned tabs (Marcus Oct 26): white top (title + count) · hairline · warm tinted lower band (Show more + list) */
+#clients .sector{padding:0;overflow:hidden;background:#fff;display:flex;flex-direction:column}
+#clients details.sector>summary{display:flex;flex-direction:column;flex:1}
+#clients .sector h3{padding:18px 20px 16px;margin:0!important;background:#fff;flex:1}
+#clients .sector .more{display:block;margin:0;padding:11px 20px;background:#f4e9dd;border-top:1px solid var(--line)}
+#clients details.sector[open] .more{display:none}
+#clients .sector .rest{margin:0!important;padding:12px 20px 16px;background:#f4e9dd;border-top:1px solid var(--line)}
+
+/* research: three evidence cards near the bottom (Marcus: "that format sucks") */
+#six-c li span{text-wrap:pretty}
+#why{position:relative;isolation:isolate;overflow:hidden}
+#why>.wrap{position:relative}
+#why>.wrap::before{content:"";position:absolute;z-index:-1;left:50%;top:calc(min(620px,100vw - 32px) * .375);width:calc(min(620px,100vw - 32px) * 1.75);aspect-ratio:1;transform:translate(-50%,-50%);background:url(images/circle-rings.svg) center/contain no-repeat;opacity:.18;pointer-events:none;-webkit-mask-image:linear-gradient(to bottom,#000 55%,transparent 78%);mask-image:linear-gradient(to bottom,#000 55%,transparent 78%)}
+#research{background:transparent;padding-top:8px}
+#research h2{font-size:clamp(1.4rem,2.6vw,1.9rem)}
+.bn-wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:clamp(24px,5vw,64px);align-items:center;margin:0 auto 64px;max-width:1000px}
+.bn-text h2{margin:6px 0 18px}
+.bn-list{list-style:none;padding:0;margin:0;display:grid;gap:12px}
+.bn-list li{text-wrap:pretty;display:flex;gap:12px;align-items:flex-start;font:500 17px/1.45 Figtree,sans-serif;color:var(--ink)}
+.bn-list svg{flex:none;width:22px;height:22px;color:var(--accent);margin-top:1px}
+.bn-photo{margin:0;background:var(--paper);padding:8px;border-radius:22px;box-shadow:0 22px 50px -28px rgba(43,29,20,.55)}
+.bn-photo img{display:block;width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:15px}
+@media (max-width:760px){.bn-wrap{grid-template-columns:1fr}.bn-photo{max-width:420px;margin:0 auto}}
+
+.rs-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:12px;margin:20px auto 0;max-width:900px}
+.rs-card{background:var(--paper);border:1px solid var(--line);border-radius:20px;padding:16px 18px 14px;display:flex;flex-direction:column;box-shadow:none}
+.rs-tag{font:700 11px/1 Figtree,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);margin:0 0 12px}
+.rs-text{font:600 15px/1.4 "Bricolage Grotesque",Figtree,sans-serif;color:var(--ink);margin:0 0 16px;flex:1;letter-spacing:-.01em}
+.rs-cite{margin:0;padding-top:10px;border-top:1px solid var(--line);font-size:12.5px}
+.rs-cite a{color:var(--muted);text-decoration:none}.rs-cite a:hover{color:var(--accent)}
+.rs-note{max-width:720px;margin:22px auto 0;text-align:center;font-size:13.5px;color:var(--muted);line-height:1.55}
+
+/* contact + quote always reachable: header button (desktop) + sticky bottom bar (phones) */
+.quote-top{display:inline-flex;align-items:center;height:36px;padding:0 16px;margin-right:8px;border-radius:999px;background:var(--accent);color:#fff;font-weight:700;font-size:14px;text-decoration:none;white-space:nowrap}
+.quote-top:hover{background:#fffaf3;color:var(--accent)}
+.cta-bar{display:none}
+@media (max-width:900px){
+  .quote-top{display:none}
+  .cta-bar{display:flex;gap:8px;position:fixed;left:0;right:0;bottom:0;z-index:20;padding:10px 12px calc(10px + env(safe-area-inset-bottom,0px));background:var(--choc,#2b1d14);box-shadow:0 -8px 24px -12px rgba(0,0,0,.5)}
+  .cta-bar a{flex:1;display:flex;align-items:center;justify-content:center;height:44px;border-radius:999px;font-weight:700;font-size:15px;text-decoration:none;background:#fffaf3;color:var(--ink)}
+  .cta-bar a.solid{background:var(--accent);color:#fff}
+  body{padding-bottom:70px}
+}
+header.top nav.links a.nav-quote{background:#fffaf3;color:var(--accent)}header.top nav.links a.nav-quote:hover{background:var(--accent);color:#fff}
+#clients .sectors{align-items:start}
+#clients .sector h3{flex:none!important;align-items:center}
+#clients details.sector>summary{flex:none}
+.read-more{text-align:center;margin:34px 0 0}
+.read-more a{display:inline-flex;flex-direction:column;gap:6px;align-items:center;text-decoration:none;color:#fff;font:700 17px/1.3 "Bricolage Grotesque",Figtree,sans-serif;padding:16px 22px;border:1.5px solid var(--accent);border-radius:16px;background:var(--accent);transition:filter .2s}
+.read-more a span{font:600 11.5px/1 Figtree,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#ffe1d1}
+.read-more a:hover{filter:brightness(.9)}
+
+/* Why section: everything on the same centre line as the rest of the page (Marcus Oct 26) */
+#why .eyebrow{justify-content:center}
+#why h2,#why .lead{text-align:center;margin-left:auto;margin-right:auto}
+#why .lead{max-width:62ch}
+#why .diff{max-width:640px;margin-left:auto;margin-right:auto;text-align:center;list-style:none;padding:0}
+#why .diff li{padding-left:0!important}#why .diff li::before{display:none!important}
+#why .flows{max-width:900px;margin-left:auto;margin-right:auto}
+#why .compare{margin-left:auto;margin-right:auto}
+#why .flows.one{display:block;max-width:560px}
+#other .eyebrow{justify-content:center}#other h2{text-align:center}
+#faq .eyebrow,#contact .eyebrow,#about .eyebrow{justify-content:center}#faq h2,#contact h2,#about h2{text-align:center}#faq .lead,#contact .lead{text-align:center;margin-left:auto;margin-right:auto}
+
+/* white frame convention (Oct 27, Marcus): every standalone photo + video gets the bn-photo frame */
+.team-photo{background:var(--paper);padding:8px}.team-photo img{display:block;border-radius:15px}
+.nm-video{border:8px solid var(--paper);box-sizing:border-box}
+.band-loops video{border:6px solid var(--paper);border-radius:16px;box-sizing:border-box}
+.marcus > img{border:8px solid var(--paper);border-radius:22px;box-sizing:border-box;box-shadow:0 22px 50px -28px rgba(43,29,20,.55)}
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <a class="logo" href="#top" aria-label="drumAdrumDRUM home">drum<span>A</span>drum<span>DRUM</span></a>
+    <nav class="links" aria-label="Sections">
+      <a href="#about">About</a><a href="#for">Services</a><a href="#other">Related services</a><a href="#marcus">Marcus</a><a href="#clients">Clients</a><a class="nav-quote" href="#contact">Get a quote</a><a href="https://www.earthharmonysoundwellness.com" target="_blank" rel="noopener">Sound Baths</a>
+    </nav>
+    <a class="call" href="tel:+17802576428">780-257-6428</a>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- HERO -->
+<section class="hero" aria-labelledby="h-hero">
+  <div class="wrap">
+    <div class="hero-grid hero-frame">
+      <div class="hero-bubble">
+        <p class="eyebrow"><span class="beat" aria-hidden="true"><i></i><i></i><i></i><i></i></span>Edmonton, Alberta</p>
+        <h1 id="h-hero">drum<span>A</span>drum<span>DRUM</span></h1>
+        <p class="motto">We bring people together.</p>
+        <ul class="hero-points" aria-label="What we offer"><li><span>Workplace wellness</span></li><li><span>Joyful self-expression</span></li><li><span>Team building</span></li></ul>
+        <div class="ctas">
+          <a class="btn btn-solid" href="tel:+17802576428">Call for a consultation</a>
+          <a class="btn btn-line" href="mailto:drumAdrumDRUM@gmail.com?subject=Drum%20circle%20%E2%80%94%20free%20consult%20%2F%20quote%20request&amp;body=Hi%20Marcus%2C%0A%0AType%20of%20event%3A%0ADate%3A%0AApprox.%20number%20of%20people%3A%0ALocation%3A%0A">Request a quote</a>
+        </div>
+      </div>
+      <div class="hero-img">
+        <img src="images/hero-g19-flip.jpg" alt="Marcus Fung leading families and kids at the drums in an outdoor drum circle" width="1600" height="1067" fetchpriority="high">
+      </div>
+    </div>
+  </div>
+  <div class="trust">
+    <div class="wrap">
+      <ul class="stats">
+        <li><b>20+</b><span>years facilitating</span></li>
+        <li><b>1,000+</b><span>circles led</span></li>
+        <li><b>YEG</b><span>Edmonton &amp; area</span></li>
+      </ul>
+    </div>
+    <div class="logo-marquee" aria-label="Some of the organizations we've worked with">
+      <div class="logo-track"><img loading="eager" src="images/logos-clear/ahs.png" alt="Alberta Health Services"><img loading="eager" src="images/logos-clear/mhcc.png" alt="Mental Health Commission of Canada"><img loading="eager" src="images/logos-clear/uofa.png" alt="University of Alberta"><img loading="eager" src="images/logos-clear/greenpeace.png" alt="Greenpeace"><img loading="eager" src="images/logos-clear/macewan.png" alt="MacEwan University"><img loading="eager" src="images/logos-clear/ymca.png" alt="YMCA"><img loading="eager" src="images/logos-clear/norquest.png" alt="NorQuest College"><img loading="eager" src="images/logos-clear/ihuman.png" alt="iHuman Youth Society"><img loading="eager" src="images/logos-clear/ucalgary.png" alt="University of Calgary"><img loading="eager" src="images/logos-clear/girlguides.png" alt="Girl Guides of Canada"><img loading="eager" src="images/logos-clear/cssalberta.png" alt="Catholic Social Services"><img loading="eager" src="images/logos-clear/augustana.png" alt="University of Alberta Augustana Campus"><img loading="eager" src="images/logos-clear/yess.png" alt="Youth Empowerment &amp; Support Services (YESS)"><img loading="eager" src="images/logos-clear/canada.png" alt="Government of Canada"><img loading="eager" src="images/logos-clear/ktc.png" alt="Kee Tas Kee Now Tribal Council"><img loading="eager" src="images/logos-clear/bgc.png" alt="Boys &amp; Girls Clubs"><img loading="eager" src="images/logos-clear/cpalberta.png" alt="Cerebral Palsy Alberta"><img loading="eager" src="images/logos-clear/edmonton.png" alt="City of Edmonton"><img loading="eager" src="images/logos-clear/eisa.png" alt="Edmonton Immigrant Services Association"><img loading="eager" src="images/logos-clear/shepherdscare.png" alt="Shepherd's Care Foundation"><img loading="eager" src="images/logos-clear/chrysalis.png" alt="Chrysalis Society"><img loading="eager" src="images/logos-clear/ahs.png" alt="" aria-hidden="true"><img loading="eager" src="images/logos-clear/mhcc.png" alt="" aria-hidden="true"><img loading="eager" src="images/logos-clear/uofa.png" alt="" aria-hidden="true"><img loading="eager" src="images/logos-clear/greenpeace.png" alt="" aria-hidden="true"><img loading="eager" src="images/logos-clear/macewan.png" alt="" aria-hidden="true"><img loading="eager" src="images/logos-clear/ymca.png" alt="" aria-hidden="true"><img loading="eager" src="images/logos-clear/norquest.png" alt="" aria-hidden="true"><img loading="eager" src="images/logos-clear/ihuman.png" alt="" aria-hidden="true"><img loading="eager" src="images/logos-clear/ucalgary.png" alt="" aria-hidden="true"><img loading="eager" src="images/logos-clear/girlguides.png" alt="" aria-hidden="true"><img loading="eager" src="images/logos-clear/cssalberta.png" alt="" aria-hidden="true"><img loading="eager" src="images/logos-clear/augustana.png" alt="" aria-hidden="true"><img loading="eager" src="images/logos-clear/yess.png" alt="" aria-hidden="true"><img loading="eager" src="images/logos-clear/canada.png" alt="" aria-hidden="true"><img loading="eager" src="images/logos-clear/ktc.png" alt="" aria-hidden="true"><img loading="eager" src="images/logos-clear/bgc.png" alt="" aria-hidden="true"><img loading="eager" src="images/logos-clear/cpalberta.png" alt="" aria-hidden="true"><img loading="eager" src="images/logos-clear/edmonton.png" alt="" aria-hidden="true"><img loading="eager" src="images/logos-clear/eisa.png" alt="" aria-hidden="true"><img loading="eager" src="images/logos-clear/shepherdscare.png" alt="" aria-hidden="true"><img loading="eager" src="images/logos-clear/chrysalis.png" alt="" aria-hidden="true"></div>
+    </div>
+  </div>
+  
+</section>
+
+<!-- WHAT YOUR TEAM GETS -->
+<section id="quote" class="quote-band" style="text-align:center;padding:60px 16px"><p class="band-line" style="font-size:clamp(1.4rem,3vw,2.1rem);max-width:820px;margin:0 auto;line-height:1.3;font-weight:600">Interactive drum circles that lift people up<br>through the power of rhythm and music.</p><div class="band-loops"><video src="video/loop-mchb.mp4" poster="video/loop-mchb.jpg" autoplay muted loop playsinline preload="metadata" aria-label="Staff team drumming together at Multicultural Health Brokers"></video><video src="video/loop-mchb2.mp4" poster="video/loop-mchb2.jpg" autoplay muted loop playsinline preload="metadata" aria-label="A full staff circle drumming together"></video><video src="video/loop-mchb-dance.mp4" poster="video/loop-mchb-dance.jpg" autoplay muted loop playsinline preload="metadata" aria-label="The rhythm builds until someone gets up and dances"></video></div><p class="band-watch"><a href="https://youtu.be/isYi3eHXhuQ" target="_blank" rel="noopener"><span class="play" aria-hidden="true"></span><span>Watch “Come Drum with Us” <small>with Multicultural Health Brokers</small></span><span class="dur">1:27</span></a></p></section>
+<section class="vision-band" aria-label="Our mission"><p class="db-eyebrow">Our mission</p><div class="db-vision"><p>We help to create a world where people feel <em>included and welcomed</em> to gather and express themselves in the circle, by creating safety, building trust and having fun together.</p><p>We use the gift of rhythm and participatory music to celebrate the connections between people, recognizing that we are <em>part of something greater, carried by a bigger song.</em></p></div></section>
+<figure class="team-photo" aria-label="A team in the circle"><img src="images/library/lib01.jpg" alt="A team drumming together" loading="lazy"></figure>
+<section class="drum-banner db-drum" aria-label="D.R.U.M."><p class="db-eyebrow">What we do</p><p class="db-word"><b>D</b>.<b>R</b>.<b>U</b>.<b>M</b>.</p><p class="db-line"><b>D</b>eveloping <b>R</b>elationships <b>U</b>sing <b>M</b>usic</p><p class="db-credit">From the DRUMBEAT program, Holyoake</p></section>
+<section class="not-musical" aria-labelledby="h-notmus"><p class="eyebrow" style="justify-content:center">Our philosophy</p><h2 id="h-notmus">What if I’m not musical?</h2><blockquote>“If you can walk, you can dance.<br>If you can talk, you can sing.”</blockquote><p class="nm-credit">Zimbabwean proverb</p><div class="nm-wrap"><video class="nm-video" src="video/workshop-sound.mp4" poster="video/workshop-sound.jpg" autoplay muted loop playsinline preload="metadata" aria-label="A workplace group up out of their chairs, dancing with drums and tambourines"></video><button class="nm-sound" type="button" aria-pressed="false" onclick="var v=this.previousElementSibling;v.muted=!v.muted;if(!v.muted){v.currentTime=0;v.play()}this.setAttribute('aria-pressed',String(!v.muted));this.textContent=v.muted?'🔈 Sound on':'🔊 Sound off'">🔈 Sound on</button></div><p class="nm-caption">DestiNAITion Global Community Drumming Workshop<br><span>NAIT International &amp; Intercultural Community Centre · 2023</span></p></section>
+<section id="gets" aria-labelledby="h-gets">
+  <div class="wrap">
+    <p class="eyebrow" style="justify-content:center;text-align:center"><span class="beat" aria-hidden="true"><i></i><i></i><i></i></span>We need both</p>
+    <h2 id="h-gets" style="text-align:center">The fun deep philosophy</h2>
+    <p class="g-quote">Depth and meaning,<br>as well as joy and lightness.</p>
+    <p class="g-intro">We specialize in serving the people who care for others:<br>&nbsp;health care, social services, nonprofit, education and community teams. <br>A wellness day or PD day that actually restores and re-ignites the spark<br>&nbsp;in the people who hold everyone else up.</p>
+        <div class="g-down">
+      <div class="g-card"><span class="g-num" aria-hidden="true">1</span><img class="g-art g-art-l" src="images/art-1-trust.jpg" alt="Women of different ages smiling side by side as they drum together" loading="lazy"><svg class="g-ico" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="m11 17 2 2a1 1 0 1 0 3-3"/><path d="m14 14 2.5 2.5a1 1 0 1 0 3-3l-3.88-3.88a3 3 0 0 0-4.24 0l-.88.88a1 1 0 1 1-3-3l2.81-2.81a5.79 5.79 0 0 1 7.06-.87l.47.28a2 2 0 0 0 1.42.25L21 4"/><path d="m21 3 1 11h-2"/><path d="M3 3 2 14l6.5 6.5a1 1 0 1 0 3-3"/><path d="M3 4h8"/></svg><h3>Bonding, Trust &amp; Psychological Safety</h3><p>A skillful facilitator helps create a space where everyone feels safe to take a risk, laugh and be seen.</p><p class="g-why"><b>Why it matters</b>When caring teams feel safe with each other, they speak up, share the load and ask for help.</p></div>
+      <div class="g-card"><span class="g-num" aria-hidden="true">2</span><img class="g-art g-art-l" src="images/art-2-joy.jpg" alt="A drum circle group throwing their hands up in celebration" loading="lazy"><svg class="g-ico g-ico48" aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 48 48" style="stroke-width:2.3"><circle cx="10" cy="31" r="8"/><circle cx="24" cy="14" r="8"/><circle cx="38" cy="31" r="8"/><path d="M6 33.5a5 5 0 0 0 8 0M20 16.5a5 5 0 0 0 8 0M34 33.5a5 5 0 0 0 8 0"/><path d="M7.5 28.5h.01M12.5 28.5h.01M21.5 11.5h.01M26.5 11.5h.01M35.5 28.5h.01M40.5 28.5h.01" style="stroke-width:3.2"/></svg><h3>Stress Relief through Joyful Expression</h3><p>Drumming naturally transforms stress into useful energy. Laughter, movement and sound shake off the week and lift the energy in the room.</p><p class="g-why"><b>Why it matters</b>For people who give all day, it’s a real reset against burnout. They return to their work lighter and more present.</p></div>
+      <div class="g-card"><span class="g-num" aria-hidden="true">3</span><img class="g-art g-art-l" src="images/art-3-listen.jpg" alt="Drummers focused and listening closely as they play together" loading="lazy"><svg class="g-ico g-ico48" aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 48 48"><circle cx="8" cy="16" r="4"/><path d="M2 32a6 6 0 0 1 12 0"/><circle cx="40" cy="16" r="4"/><path d="M34 32a6 6 0 0 1 12 0"/><path d="M17 17h14m-3-3 3 3-3 3"/><path d="M31 26H17m3-3-3 3 3 3"/></svg><h3>Communication &amp; Listening</h3><p>A drum circle is one of the rare moments where people listen and express themselves at the same time.</p><p class="g-why"><b>Why it matters</b>Teams that truly hear each other feel understood, and tension softens before it builds.</p></div>
+      <div class="g-card"><span class="g-num" aria-hidden="true">4</span><img class="g-art g-art-l" src="images/art-4-lead.jpg" alt="Marcus Fung guiding families and kids in an outdoor drum circle" loading="lazy"><svg class="g-ico g-ico48" aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 48 48"><circle cx="24" cy="9" r="4.5"/><circle cx="9" cy="35" r="4.5"/><circle cx="39" cy="35" r="4.5"/><path d="M33 13a17 17 0 0 1 7 13"/><path d="M37.5 22.5 40 26.5l3-3.5"/><path d="M31 42a17 17 0 0 1-14 0"/><path d="M21 38.5 17 42l4 2.5"/><path d="M8 26a17 17 0 0 1 7-13"/><path d="M11 13.5 15 13l-.5 4"/></svg><h3>Shared Leadership in Rhythm</h3><p>Everyone gets the opportunity to lead and to follow. Natural leaders emerge and hidden strengths surface as every person contributes to one shared rhythm.</p><p class="g-why"><b>Why it matters</b>Coworkers see each other in a new light, and everyone leaves knowing their part matters.</p></div>
+
+    <p class="read-more"><a href="https://www.earthharmonysoundwellness.com/articles/drum-circles-team-building-edmonton.html" target="_blank" rel="noopener"><span>Read the article</span>Drum circles for corporate team building &amp; workplace wellness →</a></p>
+    </div>
+  </div>
+</section>
+<section id="benefits" aria-labelledby="h-benefits" style="padding-top:24px">
+  <div class="wrap">
+    <div class="bn-wrap" aria-labelledby="h-benefits"><div class="bn-text"><p class="eyebrow"><span class="beat" aria-hidden="true"><i></i><i></i><i></i></span>Benefits</p><h2 id="h-benefits">Not therapy, but therapeutic.</h2><ul class="bn-list"><li><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m8 12.5 2.6 2.6L16 9.6"/></svg><span>Lifts your mood and lowers stress</span></li><li><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m8 12.5 2.6 2.6L16 9.6"/></svg><span>Wakes up the body with energy and play</span></li><li><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m8 12.5 2.6 2.6L16 9.6"/></svg><span>Builds trust and a real sense of belonging</span></li><li><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m8 12.5 2.6 2.6L16 9.6"/></svg><span>Gets people listening to each other</span></li><li><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m8 12.5 2.6 2.6L16 9.6"/></svg><span>Puts everyone on equal footing, no experience needed</span></li><li><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m8 12.5 2.6 2.6L16 9.6"/></svg><span>Sparks laughter, creativity and confidence</span></li><li><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m8 12.5 2.6 2.6L16 9.6"/></svg><span>Leaves the group with a powerful shared memory and bond</span></li></ul></div><figure class="bn-photo"><img src="images/benefits-marcus-teaching.jpg" alt="Marcus Fung teaching hand drumming, smiling, in a flat cap" loading="lazy"></figure></div>
+  </div>
+</section>
+<section id="research" aria-labelledby="h-research">
+  <div class="wrap">
+    <p class="eyebrow" style="justify-content:center"><span class="beat" aria-hidden="true"><i></i><i></i><i></i></span>Behind the rhythm</p>
+    <h2 id="h-research" style="text-align:center">What the research suggests</h2>
+    <div class="rs-grid"><article class="rs-card"><p class="rs-tag">Burnout &amp; mood</p><p class="rs-text">Research suggests a short group drumming program reduced burnout and improved mood in long-term care staff.</p><p class="rs-cite"><a href="https://remo.com/resources/effectiveness-for-employee-burnout-turnover-reduct" target="_blank" rel="noopener">Bittman et al., 2003 ↗</a></p></article><article class="rs-card"><p class="rs-tag">Rhythm builds teams</p><p class="rs-text">Studies have found that people who move in sync cooperate more afterwards and feel more on the same team.</p><p class="rs-cite"><a href="https://www.sciencedaily.com/releases/2009/01/090128160930.htm" target="_blank" rel="noopener">Wiltermuth &amp; Heath, 2009 ↗</a></p></article><article class="rs-card"><p class="rs-tag">Older adults</p><p class="rs-text">Research suggests making music together, percussion included, supports mood, confidence and a sense of belonging in later life.</p><p class="rs-cite"><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5330343/" target="_blank" rel="noopener">Hallam &amp; Creech, 2016 ↗</a></p></article></div>
+    <p class="rs-note">These are mostly small studies of group music-making, not studies of our sessions. Our circles are for wellness, connection and fun. They aren&#8217;t therapy or counselling, and they don&#8217;t replace professional mental health care.</p>
+  </div>
+</section>
+<section id="about" class="drum-banner db-unity" aria-label="What we believe"><p class="db-eyebrow">What we believe</p><p class="db-motto">Celebrating Unity<br>through our Diversity</p></section>
+<section id="for" aria-labelledby="h-for">
+  <div class="wrap">
+    <h2 id="h-for" style="text-align:center">Who it's for</h2>
+    <p class="g-intro">Team building, wellness days and PD days for caring teams, corporate and government workplaces, and any business that wants its people to feel like a team again.<br>We also bring the rhythm to conferences, energizers and fundraisers.</p>
+    <div class="who-grid"><article class="who-card"><img src="images/who-1-health.jpg" alt="Residents and care staff drumming together in a seniors residence" loading="lazy"><div class="who-body"><h3>Health &amp; Care</h3><p>Staff wellness days, stress relief and energizers for nurses, caregivers and care teams. Joyful drum circles for residents in seniors&#8217; residences, continuing care, hospice and rehab, adapted for every ability.</p></div></article><article class="who-card"><img src="images/who-2-social.jpg" alt="Marcus Fung laughing with Multicultural Health Brokers team members holding drums" loading="lazy"><div class="who-body"><h3>Social Services &amp; Nonprofits</h3><p>Team building and restorative PD days for frontline teams carrying heavy work, supporting staff mental health and wellness: community agencies, mental health and family services, newcomer and multicultural groups, volunteers and boards. Nonprofit rates available.</p></div></article><article class="who-card"><img src="images/who-3-workplace.jpg" alt="Community members playing drums and a xylophone at an outdoor drum circle" loading="lazy"><div class="who-body"><h3>Workplace &amp; Community</h3><p>Team building, energizers and workplace wellness for corporate and government teams: staff PD days, retreats, conferences, holiday and Christmas parties, youth groups and community celebrations, inclusive for every background.</p></div></article></div>
+    <p class="who-cta"><a class="btn btn-solid" href="tel:+17802576428">Call 780-257-6428</a> <a class="btn btn-line" href="https://www.earthharmonysoundwellness.com/files/drumming-circles-brochure.pdf" target="_blank" rel="noopener">Download the drumming brochure (PDF)</a></p>
+  </div>
+</section>
+<section id="clients" aria-labelledby="h-clients">
+  <div class="wrap">
+    <p class="eyebrow"><span class="beat" aria-hidden="true"><i></i><i></i><i></i></span>Clients &amp; past events</p>
+    <h2 id="h-clients">Who we've drummed with</h2>
+    <p class="lead">20 years of circles with health, government, education and community organizations.</p>
+    <div class="sectors"><details class="sector"><summary><h3>Health &amp; mental health<b>32</b></h3><span class="more">Show more +</span></summary><ul class="rest"><li>Alberta Veterans Guitar Society</li><li>Kids with Cancer Society</li><li>Pilgrims Hospice Society</li><li>Alexis Health Services</li><li>Autism Edmonton</li><li>Taproot Community Support Services</li><li>GreenTree Rehabilitation</li><li>Pine Integrated Health Centre</li><li>Whitemud Crossing Chiropractors</li><li>Pure Orthodontics</li><li>Allen Gray Continuing Care</li><li>Covenant Health – St. Joseph&#x27;s Auxiliary Hospital</li><li>Edmonton Operational Stress Injury Clinic</li><li>Bigstone Health Commission</li><li>Chartwell Emerald Hills</li><li>Benevolence Care Centre</li><li>Revera – Riverbend</li><li>All Seniors Care – St. Albert Retirement Residence</li><li>Garneau Hall Seniors Community</li><li>Multicultural Health Brokers</li><li>Mental Health Commission of Canada</li><li>Alberta Health Services</li><li>Arts in Medicine – Cross Cancer Institute</li><li>Wellspring Center</li><li>Headstrong Mental Health Youth Summits</li><li>NorQuest College – Professional Development</li><li>NorQuest College – Students&#x27; Union</li><li>NorQuest College – Recreational Therapy</li><li>St. Cecilia&#x27;s Junior High School</li><li>Grant MacEwan – Faculty of Health and Community Studies</li><li>Alberta Learning Assessment</li><li>Catholic Social Services</li></ul></details><details class="sector"><summary><h3>Workplace wellness &amp; yoga<b>54</b></h3><span class="more">Show more +</span></summary><ul class="rest"><li>Enbridge</li><li>Westin Edmonton</li><li>Yellowhead Tribal Council</li><li>City of Ponoka</li><li>LivUnltd – Jax Fitness</li><li>CM Events</li><li>Rowland Parker Associates</li><li>WJS Canada</li><li>JV Ventures – Enoch staff wellness</li><li>Revitalife Wellness</li><li>Element Yoga</li><li>Prana Yoga Studio</li><li>YogaLife Studios</li><li>Soul Fitness Studios</li><li>Park Yoga &amp; Wellness</li><li>Windermere Oxygen Yoga &amp; Fitness</li><li>Luminescence Healing</li><li>One Life Massage Therapy</li><li>Nūma Somatics</li><li>EvolveWell</li><li>Thru Body Mind Breath</li><li>Wellness on Whyte</li><li>Canadian Western Bank</li><li>Alberta Pensions Services Corp.</li><li>Enrich Yoga &amp; Wellness</li><li>Above Average Yoga &amp; Wellness</li><li>Ekatra Yoga</li><li>Integr8 Massage – Pulse of Life</li><li>Somatika</li><li>Amanda Blaire Wellness</li><li>WUB Wellness</li><li>Obsidian Ridge</li><li>Federal Government of Canada Health and Wellness Day</li><li>Wellness Within</li><li>Yoga Within (residence)</li><li>Red Deer Yoga Intensive</li><li>Yoga Life</li><li>Lotus Soul Yoga</li><li>The Yoga Loft</li><li>Lions Breath Yoga</li><li>Prana Yoga</li><li>From Within Wellness Center</li><li>Shanti Yoga</li><li>Shree Yoga &amp; Wellness</li><li>Allen Gray Care Center</li><li>Edmonton Pilgrims Hospice</li><li>Edmonton Seniors Alliance Greater Edmonton</li><li>Shepherd&#x27;s Care Foundation</li><li>Norwood – CapitalCare</li><li>Lions Senior Center North</li><li>Keynote Support Services</li><li>Abbottsfield Recreational Center</li><li>Metro College</li><li>City Arts Center</li></ul></details><details class="sector"><summary><h3>Community building<b>41</b></h3><span class="more">Show more +</span></summary><ul class="rest"><li>Strathcona County Library</li><li>Lake Summerside Community</li><li>Military Family Resource Centre – THRIVE Carnival</li><li>Action for Healthy Communities</li><li>Edmonton Immigrant Services Association – Newcomers&#x27; Day</li><li>City of Edmonton – Awesome Block Party</li><li>Kenilworth Community League</li><li>Families First Society</li><li>Rising Sun Theatre Society</li><li>Multilinguabilities</li><li>New Sarepta Community</li><li>Brandenburg Music</li><li>Kee Tas Kee Now Tribal Council</li><li>City of Edmonton Special Events</li><li>Chrysalis Society</li><li>Braided Journeys</li><li>Cerebral Palsy Association Alberta</li><li>Loseca Foundation</li><li>Joyful Noise Choir</li><li>Elves Special Needs Society</li><li>St. Augustine&#x27;s Catholic Church</li><li>St. Albert United Church</li><li>Family Resource Fair, Mill Woods Town Centre</li><li>Sherwood Park Library</li><li>Azure Music Sherwood Park</li><li>Strathearn Community Wellness Center</li><li>United Nations Day GMCC</li><li>Make Poverty History</li><li>Creating Hope Society Fundraiser</li><li>Weekend to End Women&#x27;s Cancer</li><li>Edmonton Yogathon – Cancer Fundraiser</li><li>Solidarity Week – GMCC</li><li>Alberta Arts on the Ave – Social Arts Experience</li><li>The Healing Cafe Edmonton</li><li>Drumocracy – Red Deer</li><li>Alberta International Percussion Society</li><li>Action 4 Healthy Communities</li><li>Edmonton Immigrant Services Association</li><li>Society for Assisted Recovering from Eating Disorders – S.C.A.R.E.D. Yogathon</li><li>PRISM Bar &amp; Grill Queer Exposure Week</li><li>Stollery Children&#x27;s Hospital Yoga Fundraiser</li></ul></details><details class="sector"><summary><h3>Youth work<b>21</b></h3><span class="more">Show more +</span></summary><ul class="rest"><li>Little Warriors – Be Brave Ranch</li><li>Edmonton Region Child Care Association</li><li>Northalta Family Day Care</li><li>Discovery Nest Early Learning Centre</li><li>Brite Beginnings – Erin Ridge</li><li>Canada World Youth</li><li>Girl Guides of Canada</li><li>Youth Emergency Shelter – The Armoury</li><li>Gandhi Youth Peace Conference</li><li>Students United for Social Justice</li><li>Calmar Public School Assembly</li><li>SCERDO – Somali Youth Stand Up and Lead</li><li>Global Youth Assembly – Ignite Change</li><li>OSYS Old Strathcona Youth Society</li><li>Roots, Love, Struggle, Music Justice w/ DAM &amp; iHuman Youth Society</li><li>CASA House</li><li>City Hall Youth Assembly</li><li>Students Against Global Apathy</li><li>ASSIST Chinese Community Center</li><li>Norwood Community Center Summer Programs</li><li>Mar Macc Dance School – Summer Camps</li></ul></details><details class="sector"><summary><h3>Conferences &amp; festivals<b>19</b></h3><span class="more">Show more +</span></summary><ul class="rest"><li>Alberta Victim Serving Summit</li><li>Superbloom – Superfriends Collective</li><li>SSUC Retreat Weekend</li><li>Yoga Association of Alberta – 50th Anniversary</li><li>CWB Banking Associate Conference</li><li>Camp WUB</li><li>Kananaskis Wellness Weekend</li><li>The Works – City of Edmonton</li><li>DreamCatcher Aboriginal Youth Conference</li><li>Edmonton Kaleido Festival</li><li>Natural Health Care Practitioners of Canada (workshop presenter/performer)</li><li>NextFest</li><li>Boys and Girls Club Edmonton</li><li>City of Edmonton – Eastwood Festival</li><li>Edmonton May Day Festival</li><li>North Country Fair</li><li>South Country Fair</li><li>Inshallah Music Festival</li><li>Astral Harvest Festival</li></ul></details><details class="sector"><summary><h3>Schools &amp; universities<b>40</b></h3><span class="more">Show more +</span></summary><ul class="rest"><li>NorQuest College – Therapeutic Recreation</li><li>University of Alberta – Faculty of Arts</li><li>University of Alberta – Augustana Campus</li><li>University of Alberta – Aboriginal Teacher Education Program</li><li>MacEwan University</li><li>The King&#x27;s University</li><li>NAIT – International &amp; Intercultural Community Centre</li><li>Parkland School Division</li><li>Suzuki Charter School</li><li>Namao High School</li><li>University of Alberta International Center</li><li>University of Calgary Faculty of Social Work</li><li>Grant MacEwan Students&#x27; Association</li><li>University of Alberta International House</li><li>University of Alberta Faculty of Extension</li><li>University of Alberta International Week</li><li>Stand Up for Ft. Chip / Greenpeace</li><li>Music Is a Weapon</li><li>University of Augustana International Week</li><li>U of A Music 101 – Folk Music of Canada</li><li>West Park Elementary, Red Deer – Artist in Residency</li><li>Montessori &amp; Me Preschool Stratford</li><li>St. Albert Protestant Preschool</li><li>École Dickinsfield (leadership course)</li><li>Westboro School Sherwood Park (resiliency workshops)</li><li>St. Hilda Junior High (multicultural day)</li><li>Our Lady of Peace Elementary</li><li>Brightview Elementary</li><li>Belgravia Elementary</li><li>St. Kevin&#x27;s MADD Day</li><li>St. Cecilia – Mental Health Days</li><li>Jamie Platt YMCA</li><li>Londonderry Junior High School Gr. 7 Camp</li><li>Londonderry Junior High – PEACE JAM</li><li>Strathcona Composite High Leadership Class</li><li>Jasper Place High School</li><li>Queen Elizabeth High – Multicultural Day</li><li>M.E. LaZerte – Multicultural Day</li><li>St. Joseph&#x27;s – Action 4 Healthy Communities</li><li>École Marie Poburan</li></ul></details></div>
+  </div>
+</section>
+
+<!-- WHY FACILITATED -->
+<section id="why" aria-labelledby="h-why" style="padding-top:0">
+  <div class="wrap">
+    <figure class="team-photo" style="margin:0 auto 34px;width:min(620px,calc(100% - 32px))"><img src="images/why-facilitating-street.jpg" alt="Marcus Fung facilitating a street festival drum circle, one arm raised to cue the group" loading="lazy" style="aspect-ratio:4/3"></figure>
+    <p class="eyebrow"><span class="beat" aria-hidden="true"><i></i><i></i><i></i></span>Our approach</p>
+    <h2 id="h-why" style="text-wrap:balance">Why a facilitated drum circle?</h2>
+    <p class="lead"><span style="display:block;text-wrap:balance">Skilled facilitation isn&#8217;t a performance.</span><span style="display:block;text-wrap:balance">It&#8217;s making easier what already wants to happen.</span><span style="display:block;text-wrap:balance">We help your group explore their fullest potential.</span></p>
+    <p class="lead" style="margin-top:12px">The 6 C&#8217;s are how we draw it out.</p>
+    <div class="six-wrap" id="six-c">
+    <p class="eyebrow" style="justify-content:center"><span class="beat" aria-hidden="true"><i></i><i></i><i></i></span>Our method</p>
+    <h3 class="six-title">The 6 C's of facilitation</h3>
+    <ol class="six">
+      <li><b>Build the context</b><span>Why we're here: your goals, your people, and what the day is for.</span></li>
+      <li><b>Build the container</b><span>Psychological safety: a space to play, take risks, and succeed together</span></li>
+      <li><b>Build capacity</b><span>You can&#8217;t connect with others until you&#8217;ve connected with yourself. Simple games, rhythms and concepts that balance fun and challenge.</span></li>
+      <li><b>Build connection</b><span>Listening, expressing and navigating pitfalls together as a group, toward success and team flow.</span></li>
+      <li><b>Empower creativity</b><span>What truly makes the circle come alive: highlighting each person&#8217;s unique contribution, and creating opportunities for everyone to add theirs.</span></li>
+      <li><b>Nourish community</b><span>Shared, memorable moments of bonding and laughter that the team carries back to work.</span></li>
+    </ol>
+    </div>
+<div class="cmp-card"><h3 class="cmp-title" style="margin-top:72px">What's the difference?</h3>
+<p class="cmp-sub">Choose the best fit for your event.</p>
+<table class="compare">
+      <thead><tr><th scope="col"><span class="vh">Aspect</span></th><th scope="col"><span class="cmp-pill">Traditional drumming workshop</span></th><th scope="col"><span class="cmp-pill cmp-pill-on">Facilitated drum circle</span></th></tr></thead>
+      <tbody>
+        <tr><th scope="row">Focus</th><td data-l="Traditional workshop">Learning set rhythms and their culture</td><td data-l="Facilitated circle">The quality of connection between members of your group</td></tr>
+        <tr><th scope="row">The music</th><td data-l="Traditional workshop">Taught by an instructor</td><td data-l="Facilitated circle">An in-the-moment group song, improvised through listening and shared risk</td></tr>
+        <tr><th scope="row">The experience</th><td data-l="Traditional workshop">Appreciation of a tradition</td><td data-l="Facilitated circle">Setting the stage to take a safe risk for a greater reward</td></tr>
+        <tr><th scope="row">Format</th><td data-l="Traditional workshop">A set program</td><td data-l="Facilitated circle">Meeting and adapting to the energy of the room, with a debrief</td></tr>
+      </tbody>
+    </table></div>
+    
+  </div>
+</section>
+
+<!-- YOUR FACILITATOR (moved up Oct 27) -->
+<section id="marcus" aria-labelledby="h-marcus" style="padding-top:0">
+  <div class="wrap marcus">
+    <img src="images/marcus-drums-snow.jpg" alt="Marcus Fung kneeling beside a collection of hand drums outdoors" loading="lazy" width="1440" height="1080">
+    <div>
+      <p class="eyebrow"><span class="beat" aria-hidden="true"><i></i><i></i><i></i></span>Your facilitator</p>
+      <h2 id="h-marcus">Marcus Fung</h2>
+      <p>Marcus Fung is a Chinese born Canadian living in Treaty 6 territory, Amiskwaciy Waskahikan, Cree for Beaver Hills, now known as Edmonton. He is a classically trained pianist and a graduate of Grant MacEwan College holding diplomas in Music Composition and Jazz Piano performance. He began a mentorship and career specializing as an early music and movement teacher with Music Together of the Northern Lights. He later learned to weave his love for music with inclusion, going on to work with peoples of many backgrounds, ages and abilities. He developed his understanding of working inter-modally studying Expressive Art Therapy.</p>
+      <p>For more than 20 years and 1,000+ circles, from boardrooms to care homes to cancer care, Marcus has facilitated rhythm using Arthur Hull&#8217;s drum circle facilitation methodology, blended with his own approach.</p>
+      <p>He continues to foster his interest in the transformative possibilities of sound therapy and the healing arts. He continues to learn and grow in his community where he likes to refer to himself as a re-generative culture artist.</p>
+      <p id="bio-cta" style="margin-top:18px;scroll-margin-top:300px"><a class="btn btn-solid" href="https://www.earthharmonysoundwellness.com/files/Marcus-Fung-CV.pdf" target="_blank" rel="noopener">View Marcus's CV</a> <a class="btn btn-line" style="color:var(--accent);margin-left:8px" href="mailto:drumAdrumDRUM@gmail.com?subject=A%20question%20for%20Marcus">Ask me a question</a></p>
+    </div>
+  </div>
+</section>
+
+<!-- OTHER SERVICES -->
+<section id="other" aria-labelledby="h-other" style="padding-top:0">
+  <div class="wrap">
+    <p class="eyebrow"><span class="beat" aria-hidden="true"><i></i><i></i><i></i></span>Beyond the drum</p>
+    <h2 id="h-other">Related services</h2>
+    <div class="svc">
+      <article>
+        <img src="images/svc-sound-healing.jpg" alt="Sound bath and sound healing in Edmonton: Marcus playing didgeridoo among crystal singing bowls, gongs and a handpan" loading="lazy" width="1200" height="1600" style="object-position:60% 22%">
+        <div class="body">
+          <h3>Sound Bath &amp; Sound Therapy</h3>
+          <p>Sound healing with crystal and Tibetan singing bowls and gongs. Therapeutic and healing sounds to accompany yoga classes, meditations or other special events.</p>
+          <details class="more">
+            <summary>Read more</summary>
+            <p>Sound baths and gong journeys are offered through Marcus's sister practice, <a href="https://www.earthharmonysoundwellness.com" target="_blank" rel="noopener">Earth Harmony Sound &amp; Wellness →</a></p>
+          </details>
+        </div>
+      </article>
+      <article>
+        <img src="images/laughter-yoga-marcus.jpg" alt="Marcus Fung leading laughter yoga in Edmonton, six characters laughing together" loading="lazy" width="1280" height="720">
+        <div class="body">
+          <h3>Laughter Yoga</h3>
+          <p>Laughter Yoga is a form of personal and social exercise, which benefits the body, mind and spirit. It pairs the practice of laughter exercises with deep yogic breathing.</p>
+          <details class="more">
+            <summary>Read more</summary>
+            <h4>Why would I do this?</h4>
+            <p>As soon as one begins to laugh, an instantaneous positive shift begins to occur. The entire body and cellular structure begins to become oxygenated. A sense of playfulness, release and levity is invoked.</p>
+            <p>There is a positive shift in emotions and outlook. Laughter stimulates the parasympathetic nervous system (PSNS), "rest" and "digest", the complement of the sympathetic nervous system (SNS), fight or flight.</p>
+            <p>You get a chance to not take yourself so seriously, PLAY and be silly.</p>
+            <h4>Laughter yoga for me is based on two key principles</h4>
+            <p>Your body does not recognize the difference between laughter as exercise and laughter stimulated by humour.</p>
+            <p>Laughter is C O N T A G I O U S.</p>
+          </details>
+        </div>
+      </article>
+      <article>
+        <img src="images/svc-silent-disco.jpg" alt="Silent disco event in Edmonton under a full moon: dancers in glowing headphones" loading="lazy" width="1600" height="1199">
+        <div class="body">
+          <h3>Movement Based</h3>
+          <p>Silent disco events and Music Movement Medicine. Creative movement for all ages.</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- ABOUT MARCUS -->
+
+
+<!-- CLIENTS -->
+
+<!-- FAQ -->
+<!-- FAQ removed for now (Marcus, Oct 27) — saved in .archive/faq-section-1027.html -->
+
+<!-- CONTACT -->
+<section id="contact" aria-labelledby="h-contact">
+  <div class="wrap contact-grid">
+    <div>
+      <p class="eyebrow"><span class="beat" aria-hidden="true"><i></i><i></i><i></i></span>Contact &amp; quotes</p>
+      <h2 id="h-contact">Call us today for a consultation</h2>
+      <p class="lead">Tell us about your group and your event — we'll shape the circle around it.</p>
+      <ol class="steps">
+        <li><b>Call or email</b> with your date, group size and goals.</li>
+        <li><b>Free consult</b> to talk through your space and what you want people to leave with.</li>
+        <li><b>Custom plan &amp; quote</b>, then we show up with the drums.</li>
+      </ol>
+      <div class="ctas" style="margin-top:24px">
+        <a class="btn btn-solid" href="mailto:drumAdrumDRUM@gmail.com?subject=Drum%20circle%20%E2%80%94%20free%20consult%20%2F%20quote%20request&amp;body=Hi%20Marcus%2C%0A%0AType%20of%20event%3A%0ADate%3A%0AApprox.%20number%20of%20people%3A%0ALocation%3A%0A">Book a free consult / request a quote</a>
+        <a class="btn btn-line" href="tel:+17802576428">Call 780-257-6428</a>
+      </div>
+    </div>
+    <ul class="contact-list">
+      <li><small>Facilitator</small>Marcus Fung</li>
+      <li><small>Phone</small><a href="tel:+17802576428">780-257-6428</a></li>
+      <li><small>Email</small><a href="mailto:drumAdrumDRUM@gmail.com">drumAdrumDRUM@gmail.com</a></li>
+      <li><small>Based in</small>Edmonton, Alberta, Canada</li>
+    </ul>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© 2008–2026 drumAdrumDRUM</span>
+    <span><a href="https://www.earthharmonysoundwellness.com/files/drumming-circles-brochure.pdf" target="_blank" rel="noopener">Drumming brochure (PDF)</a></span>
+    <span>Sound baths: <a href="https://www.earthharmonysoundwellness.com/" target="_blank" rel="noopener">earthharmonysoundwellness.com</a></span>
+  </div>
+</footer>
+
+<script>
+/* Entrainment circle: 12 drummers start out of phase and gradually lock into one pulse (Kuramoto model) */
+(function(){const c=document.getElementById('entrain');if(!c)return;const x=c.getContext('2d'),N=12,S=360,R=118,cx=S/2,cy=S/2;
+let ph=[],w=[],K=0,t0=performance.now();function reset(){ph=[...Array(N)].map(()=>Math.random()*Math.PI*2);w=[...Array(N)].map(()=>2*Math.PI*(0.42+(Math.random()-.5)*.16));K=0;t0=performance.now()}
+reset();const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;let last=performance.now();
+function frame(now){const dt=Math.min(.05,(now-last)/1000);last=now;const el=(now-t0)/1000;K=Math.min(1.2,el*.07);if(el>40)reset();
+let sx=0,sy=0;for(let i=0;i<N;i++){sx+=Math.cos(ph[i]);sy+=Math.sin(ph[i])}const r=Math.hypot(sx,sy)/N,psi=Math.atan2(sy,sx);
+for(let i=0;i<N;i++)ph[i]+=(w[i]+K*r*Math.sin(psi-ph[i]))*dt;
+x.clearRect(0,0,S,S);x.strokeStyle='rgba(194,85,43,.18)';x.lineWidth=1.5;x.beginPath();x.arc(cx,cy,R,0,7);x.stroke();
+const P=[...Array(N)].map((_,i)=>{const a=i/N*Math.PI*2-Math.PI/2;return[cx+Math.cos(a)*R,cy+Math.sin(a)*R]});
+x.lineWidth=1;for(let i=0;i<N;i++)for(let j=i+2;j<N;j++){if(j===i+N-1)continue;x.strokeStyle=`rgba(194,85,43,${.02+.10*r*r})`;x.beginPath();x.moveTo(P[i][0],P[i][1]);x.lineTo(P[j][0],P[j][1]);x.stroke()}
+x.lineWidth=1.4;for(let i=0;i<N;i++){x.strokeStyle=`rgba(224,183,90,${.15+.5*r*r})`;x.beginPath();x.moveTo(P[i][0],P[i][1]);x.lineTo(cx,cy);x.stroke()}
+const glow=r*r;x.fillStyle=`rgba(224,183,90,${.12+.14*glow*(.5+.5*Math.cos(psi))})`;x.beginPath();x.arc(cx,cy,40+18*glow,0,7);x.fill();
+for(let i=0;i<N;i++){const a=i/N*Math.PI*2-Math.PI/2,px=cx+Math.cos(a)*R,py=cy+Math.sin(a)*R,b=.5+.5*Math.cos(ph[i]);
+x.fillStyle=`rgba(194,85,43,${.55+.35*b})`;x.beginPath();x.arc(px,py,10+3*b,0,7);x.fill()}
+x.fillStyle='#2b1d14';x.font='600 13px Figtree,sans-serif';x.textAlign='center';x.fillText(r>.92?'IN SYNC':'finding the rhythm…',cx,cy+5);
+if(!reduce)requestAnimationFrame(frame)}requestAnimationFrame(frame)})();
+</script>
+<nav class="cta-bar" aria-label="Contact"><a href="tel:+17802576428">Call 780-257-6428</a><a class="solid" href="mailto:drumAdrumDRUM@gmail.com?subject=Drum%20circle%20%E2%80%94%20free%20consult%20%2F%20quote%20request&amp;body=Hi%20Marcus%2C%0A%0AType%20of%20event%3A%0ADate%3A%0AApprox.%20number%20of%20people%3A%0ALocation%3A%0A">Get a quote</a></nav>
+<script>
+/* hero pills: stretch each label's letter-spacing so every pill's text runs the same width */
+(function(){function fit(){var sp=[].slice.call(document.querySelectorAll('.hero-points span'));if(!sp.length)return;sp.forEach(function(e){e.style.letterSpacing='';e.style.marginRight=''});var w=Math.max.apply(null,sp.map(function(e){return e.getBoundingClientRect().width}));sp.forEach(function(e){var n=e.textContent.length-1,d=w-e.getBoundingClientRect().width;if(n>0&&d>0.5){e.style.letterSpacing='calc(.09em + '+(d/n)+'px)';e.style.marginRight=(-d/n)+'px'}})}
+if(document.fonts&&document.fonts.ready)document.fonts.ready.then(fit);else window.addEventListener('load',fit);window.addEventListener('resize',fit)})();
+</script>
+</body>
+</html>

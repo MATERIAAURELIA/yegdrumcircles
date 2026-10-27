@@ -1,0 +1,43 @@
+lib01|/Users/auramateria/Desktop/Earth Harmony/3 - LANTERN/Photos/PHOTOS EVENTS/Team Drumming/drum-circle-group-hall.JPG
+lib02|/Users/auramateria/Desktop/Earth Harmony/3 - LANTERN/Photos/PHOTOS EVENTS/Team Drumming/drumcircle 1.jpeg
+lib03|/Users/auramateria/Desktop/Earth Harmony/3 - LANTERN/Photos/PHOTOS EVENTS/Team Drumming/drums-loaded-car-trunk.HEIC
+lib04|/Users/auramateria/Desktop/Earth Harmony/3 - LANTERN/Photos/PHOTOS EVENTS/Team Drumming/drums-table-overhead.JPG
+lib05|/Users/auramateria/Desktop/Earth Harmony/3 - LANTERN/Photos/PHOTOS EVENTS/Team Drumming/outdoor-drums-grass-setup.HEIC
+lib06|/Users/auramateria/Desktop/Earth Harmony/3 - LANTERN/Photos/PHOTOS EVENTS/Team Drumming/outdoor-drums-trees.HEIC
+lib07|/Users/auramateria/Desktop/Earth Harmony/3 - LANTERN/Photos/PHOTOS EVENTS/Team Drumming/shutter-drums1.webp
+lib08|/Users/auramateria/Desktop/Earth Harmony/3 - LANTERN/Photos/PHOTOS EVENTS/Team Drumming/team drumming 3.jpg
+lib09|/Users/auramateria/Desktop/Earth Harmony/3 - LANTERN/Photos/PHOTOS EVENTS/Team Drumming/team drumming 4.jpg
+lib10|/Users/auramateria/Desktop/Earth Harmony/3 - LANTERN/Photos/PHOTOS EVENTS/Team Drumming/team druymming 2.png
+lib11|/Users/auramateria/Desktop/Earth Harmony/2 - TEMPLE/PARTNER KIT BANK/PHOTOS/drumming-headshot-drum-circle-sign.heic
+lib12|/Users/auramateria/Desktop/Earth Harmony/2 - TEMPLE/PARTNER KIT BANK/PHOTOS/drumming-headshot-drums-in-trunk.heic
+lib13|/Users/auramateria/Desktop/Earth Harmony/2 - TEMPLE/PARTNER KIT BANK/PHOTOS/drumming-headshot-outdoor-setup-selfie.heic
+lib14|/Users/auramateria/Desktop/Earth Harmony/2 - TEMPLE/PARTNER KIT BANK/PHOTOS/drumming-other-drum-collection-garage.heic
+lib15|/Users/auramateria/Desktop/Earth Harmony/2 - TEMPLE/PARTNER KIT BANK/PHOTOS/drumming-other-hall-gong-marimba-setup.heic
+lib16|/Users/auramateria/Desktop/Earth Harmony/2 - TEMPLE/PARTNER KIT BANK/PHOTOS/drumming-pulse-circle-in-session.heic
+lib17|/Users/auramateria/Desktop/Earth Harmony/2 - TEMPLE/PARTNER KIT BANK/RHYTHM CRADLE PHOTOS/pulse-2026-10-02-retekess-labyrinth-dusk.jpg
+lib18|/Users/auramateria/Desktop/MARCUS INCOMING/MEL - Yoga Within Nov 13/4 - Drumming (Part 1)/drum-circle-big-room-A.jpg
+lib19|/Users/auramateria/Desktop/MARCUS INCOMING/MEL - Yoga Within Nov 13/4 - Drumming (Part 1)/drum-circle-big-room-B.jpg
+lib20|/Users/auramateria/Desktop/MARCUS INCOMING/MEL - Yoga Within Nov 13/4 - Drumming (Part 1)/drum-circle-djembes-closeup.jpg
+lib21|/Users/auramateria/Desktop/MARCUS INCOMING/MEL - Yoga Within Nov 13/4 - Drumming (Part 1)/drum-circle-in-session.jpg
+lib22|/Users/auramateria/Desktop/MARCUS INCOMING/MEL - Yoga Within Nov 13/4 - Drumming (Part 1)/drums.jpg
+lib23|/Users/auramateria/Desktop/MARCUS INCOMING/MEL - Yoga Within Nov 13/4 - Drumming (Part 1)/healing-sounds-setup.jpg
+lib24|/Users/auramateria/Desktop/MARCUS INCOMING/MEL - Yoga Within Nov 13/4 - Drumming (Part 1)/marcus-drum-circle.jpg
+lib25|/Users/auramateria/Desktop/MARCUS INCOMING/MEL - Yoga Within Nov 13/6 - SEND TO MEL/1 - BANNER - marcus with drums.jpg
+lib26|/Users/auramateria/Desktop/MARCUS INCOMING/MEL - Yoga Within Nov 13/6 - SEND TO MEL/2 - ALTERNATE - drumming closeup (vertical).jpg
+lib27|/Users/auramateria/Desktop/MARCUS INCOMING/MEL - Yoga Within Nov 13/6 - SEND TO MEL/3 - GROUP - full drum circle.jpg
+lib28|/Users/auramateria/Desktop/MARCUS INCOMING/MEL - Yoga Within Nov 13/6 - SEND TO MEL/4 - MARCUS - blue hoodie drumming (portrait).jpg
+lib29|/Users/auramateria/Desktop/MARCUS INCOMING/MEL - Yoga Within Nov 13/6 - SEND TO MEL/5 - DRUMS - full collection on white.jpg
+lib30|/Users/auramateria/Desktop/MARCUS INCOMING/MEL - Yoga Within Nov 13/1 - BANNER options/marcus-frame-drum-caleb-12.jpg
+lib31|/Users/auramateria/Desktop/MARCUS INCOMING/drum-video-011s-laughing-closeup.jpg
+lib32|/Users/auramateria/Desktop/MARCUS INCOMING/drum-video-040s-dancing-joy.jpg
+lib33|/Users/auramateria/Desktop/MARCUS INCOMING/drum-video-054s-full-circle.jpg
+lib34|/Users/auramateria/Desktop/MARCUS INCOMING/drum-circle-MCHB-group-alt-24s.jpg
+lib35|/Users/auramateria/Desktop/MARCUS INCOMING/drum-circle-MCHB-group-alt-68s.jpg
+lib36|/Users/auramateria/Desktop/MARCUS INCOMING/drum-circle-MCHB-group-PICK-1280x720.jpg
+lib37|/Users/auramateria/Desktop/MARCUS INCOMING/PULSE-banner-A-hands.jpg
+lib38|/Users/auramateria/Desktop/MARCUS INCOMING/PULSE-banner-B-marcus-drums.jpg
+lib39|/Users/auramateria/Desktop/MARCUS INCOMING/Yoga Within - Nov 13 drumming/1-marcus-drumming.jpg
+lib40|/Users/auramateria/Desktop/MARCUS INCOMING/Yoga Within - Nov 13 drumming/2-the-circle.jpg
+lib41|/Users/auramateria/Desktop/MARCUS INCOMING/Yoga Within - Nov 13 drumming/3-the-drums.jpg
+lib42|/Users/auramateria/Desktop/Earth Harmony/3 - LANTERN/Photos/BIO PHOTOS/full/02-big-smile-djembes.jpg
+lib43|/Users/auramateria/Desktop/Earth Harmony/3 - LANTERN/BIO PHOTOS/marcus-drumming-blue-hoodie-smiling-web.jpg
