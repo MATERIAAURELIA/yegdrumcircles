@@ -53,7 +53,7 @@ html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
 body{background:var(--bg);color:var(--ink);font:400 17px/1.65 Figtree,system-ui,sans-serif;overflow-x:hidden}
 img{display:block;max-width:100%;height:auto}
 a{color:inherit}
-h1,h2,h3{font-family:"Bricolage Grotesque",Figtree,sans-serif;line-height:1.08;letter-spacing:-.02em}
+h1,h2,h3,.brand-h{font-family:"Bricolage Grotesque",Figtree,sans-serif;line-height:1.08;letter-spacing:-.02em}.brand-h{margin:0 0 .25em}h1.eyebrow{margin-top:0;line-height:1.3}
 h2{font-size:clamp(30px,6vw,46px);font-weight:800;margin-bottom:18px}
 h3{font-size:21px;font-weight:700;margin-bottom:8px}
 p+p{margin-top:14px}
@@ -85,8 +85,8 @@ nav.links a:hover{color:var(--ink)}
 /* hero */
 .hero{padding:28px 0 0}
 .hero-grid{display:grid;gap:28px}
-.hero h1{font-size:clamp(38px,10.4vw,88px);font-weight:800;letter-spacing:-.035em}
-.hero h1 span{color:var(--accent)}
+.hero .brand-h{font-size:clamp(38px,10.4vw,88px);font-weight:800;letter-spacing:-.035em}
+.hero .brand-h span{color:var(--accent)}
 .motto{font:700 clamp(22px,3vw,30px)/1.15 "Bricolage Grotesque",sans-serif;color:var(--ink);letter-spacing:-.015em;margin:-6px 0 0}
 .tagline{font:600 clamp(17px,2.4vw,20px)/1.3 Figtree,sans-serif;color:var(--muted);margin:10px 0 22px}
 .hero .motto{font:700 clamp(22px,3.4vw,30px)/1.2 "Bricolage Grotesque",sans-serif;margin-bottom:6px}
@@ -345,16 +345,16 @@ footer a{color:#e3d4c2}
 .hero-bubble .tagline{margin-bottom:0}
 .hero-tags span{white-space:nowrap}
 .hero-bubble{max-width:100%;box-sizing:border-box}
-@media (max-width:600px){.hero-bubble{padding:16px 16px;border-radius:22px}.hero-bubble h1{font-size:clamp(30px,9vw,44px)}.hero-bubble .tagline br{display:none}}
+@media (max-width:600px){.hero-bubble{padding:16px 16px;border-radius:22px}.hero-bubble .brand-h{font-size:clamp(30px,9vw,44px)}.hero-bubble .tagline br{display:none}}
 /* chocolate frame around hero: cream title bubble flush with photo (Oct 11) */
 .hero-frame{background:var(--choc);border-radius:32px;padding:16px;gap:16px!important;align-items:stretch!important}
 .hero-frame .hero-bubble{margin:0;border:0;border-radius:22px;display:flex;flex-direction:column;justify-content:center;padding:clamp(22px,4vw,48px)}
 .hero-frame .hero-img{border-radius:22px;aspect-ratio:auto;min-height:320px}
 .hero-frame .ctas{margin-top:22px}
 .hero-frame>*{min-width:0}
-.hero-frame h1{font-size:clamp(30px,4.1vw,62px);white-space:nowrap}
+.hero-frame .brand-h{font-size:clamp(30px,4.1vw,62px);white-space:nowrap}
 @media (min-width:900px){.hero-frame{grid-template-columns:1.45fr 1fr!important}}
-@media (max-width:600px){.hero-frame{padding:10px;gap:10px!important;border-radius:26px}.hero-frame h1{font-size:clamp(28px,8.6vw,40px)}.hero-frame .hero-img{min-height:260px}}
+@media (max-width:600px){.hero-frame{padding:10px;gap:10px!important;border-radius:26px}.hero-frame .brand-h{font-size:clamp(28px,8.6vw,40px)}.hero-frame .hero-img{min-height:260px}}
 /* chocolate menu bar with cream bubbles (Oct 11) */
 header.top{background:var(--choc);border-bottom:0;backdrop-filter:none}
 header.top .wrap{height:70px}
@@ -562,7 +562,6 @@ header.top nav.links a.nav-quote{background:#fffaf3;color:var(--accent)}header.t
 .marcus > img{border:8px solid var(--paper);border-radius:22px;box-sizing:border-box;box-shadow:0 22px 50px -28px rgba(43,29,20,.55)}
 .svc-link{margin:10px 0 0}.svc-link a{font-weight:700;color:var(--accent);text-decoration:none}.svc-link a:hover{text-decoration:underline}
 </style>
-<script>window.goatcounter={path:function(p){return "yegdrumcircles.com"+p}}</script><script data-goatcounter="https://earthharmony.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </head>
 <body>
 
@@ -583,8 +582,8 @@ header.top nav.links a.nav-quote{background:#fffaf3;color:var(--accent)}header.t
   <div class="wrap">
     <div class="hero-grid hero-frame">
       <div class="hero-bubble">
-        <p class="eyebrow"><span class="beat" aria-hidden="true"><i></i><i></i><i></i><i></i></span>Edmonton, Alberta</p>
-        <h1 id="h-hero">drum<span>A</span>drum<span>DRUM</span></h1>
+        <h1 class="eyebrow"><span class="beat" aria-hidden="true"><i></i><i></i><i></i><i></i></span>Drum Circles &amp; Team Building · Edmonton</h1>
+        <p class="brand-h" id="h-hero">drum<span>A</span>drum<span>DRUM</span></p>
         <p class="motto">We bring people together.</p>
         <ul class="hero-points" aria-label="What we offer"><li><span>Workplace wellness</span></li><li><span>Joyful self-expression</span></li><li><span>Team building</span></li></ul>
         <div class="ctas">
@@ -803,7 +802,7 @@ header.top nav.links a.nav-quote{background:#fffaf3;color:var(--accent)}header.t
 
 <footer>
   <div class="wrap">
-    <span>© 2008–2026 drumAdrumDRUM · <a href="laughter-yoga/">Laughter yoga Edmonton</a></span>
+    <span>© 2008–2026 drumAdrumDRUM · <a href="laughter-yoga/">Laughter yoga Edmonton</a> · <a href="holiday-parties/">Staff Christmas party ideas Edmonton</a> · <a href="team-building/">Corporate team building Edmonton</a></span>
     <span><a href="https://www.earthharmonysoundwellness.com/files/drumming-circles-brochure.pdf" target="_blank" rel="noopener">Drumming brochure (PDF)</a></span>
     <span>Sound baths: <a href="https://www.earthharmonysoundwellness.com/" target="_blank" rel="noopener">earthharmonysoundwellness.com</a></span>
     <span>Follow: <a href="https://www.instagram.com/earth.harmony.sound.wellness/" target="_blank" rel="noopener me">Instagram</a> · <a href="https://www.facebook.com/profile.php?id=61588071205071" target="_blank" rel="noopener me">Facebook</a></span>
